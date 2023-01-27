@@ -15,6 +15,6 @@ git clone https://github.com/EnzoGzz/linux-labs.git
 
 The content is in the *src* folder.
 
-/!\ Please, DO NOT look in *check-scripts* because it may containe awnsers. Be fair, that's the way you will improve. /!\
+/!\ Please, DO NOT look in *check-scripts* because it may contain awnsers. Be fair, that's the way you will improve. /!\
 
 Enjoy !
