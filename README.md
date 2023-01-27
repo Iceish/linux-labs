@@ -10,7 +10,7 @@ You will need git in order to clone this repository.
 
 use
 ```bash
-git clone github.com/EnzoGzz/linux-labs
+git clone github.com/EnzoGzz/linux-labs.git
 ```
 
 The content is in the *src* folder.
