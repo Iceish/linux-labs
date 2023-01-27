@@ -35,8 +35,21 @@ role=global supervisor
 ```
 Tout à l'aire en ordre, executez le script de vérification à la racine du dossier *dormitories*.
 
-Vous pouvez passez à la suite si c'est OK.
+Vous pouvez passez à la suite si tous les indicateurs sont OK.
 
 ## Reactors
 
+En analysant les configurations des réacteurs, vous vous rendez compte que l'un des deux est incomplet. Lequel ?
 
+Completez la configuration du réacteur incomplet avec les autres informations dans le dossier. Renseignez vous grâce à vos connaissances;
+
+
+Le champ *fuel-type* lui spécifie quel type de carburant est utilisé. Vous trouverez l'information dans un fichier (peût-être caché).
+
+Le champ quantity correspond à la taille du fichier *fuel* en KB.
+
+Le champ *engine-with-starter* est difficile à trouver. En effet de nombreux fichiers et sous dossiers se trouvent dans *engines*. Or rappelez vous que le vaisseau décolle bientôt! Pour aller plus vite vous décidez d'installer un packet pour lister tout d'un coup. Installez la commande *tree* avec apt, puis utilisez là sur le dossier *engines*. Quand vous avez ciblé les starters, remontrez jusqu'à la source pour obtenir le numéro du moteur.
+
+Quand vous pensez avoir la bonne configuration, executez le script de vérification à la racine du dossier *reactors*.
+
+Vous pouvez passer à la suite si tous les indicateurs sont OK.
