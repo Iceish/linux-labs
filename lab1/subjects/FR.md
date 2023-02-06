@@ -38,7 +38,7 @@ Tout à l'aire en ordre, executez le script de vérification à la racine du dos
 
 Vous pouvez passez à la suite si tous les indicateurs sont OK.
 
-## Reactors
+## Réacteurs
 
 En analysant les configurations des réacteurs, vous vous rendez compte que l'un des deux est incomplet. Lequel ?
 
