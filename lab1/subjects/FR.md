@@ -19,6 +19,7 @@ Les configurations des dortoirs servent à assigner les lits aux membres de l'é
 Combien y'a t'il de dortoirs ?
 
 Dans chaque dortoir, vous retrouverez un fichier par membre d'équipage.
+Ainsi que un fichier de configuration globale indiquant la couleur du bracelet associé au dortoir.
 
 Listez chaque dortoir pour avoir le nombre total de membre entregistrés.
 
@@ -53,5 +54,40 @@ Le champ *engine-with-starter* est difficile à trouver. En effet de nombreux fi
 Quand vous avez ciblé les starters, remontrez jusqu'à la source pour obtenir le numéro du moteur (soit 1,2 ou 3)
 
 Quand vous pensez avoir la bonne configuration, executez le script de vérification à la racine du dossier *reactors*.
+
+Vous pouvez passer à la suite si tous les indicateurs sont OK.
+
+## Stockage
+
+Votre collègue Karen, opératrice de la salle de stockage vous informe que l'attaquant a mis le bazar dans les differentes palettes de stockage, empêchant le contrôle des rations de nourriture.
+
+Elle ajoute qu'elle a retrouvé le bouton d'un bracelet au sol à côté de la palette de légumes, et qu'avec un peu de chance, l'attaquant a fait tomber son bracelet coloré dans celle-ci.
+
+Décompressez les deux palettes disponibles, et analysez leur contenu.
+
+Votre dossier *storage* devrait se présenter comme le schéma ci-dessous.
+```
+.
+├── ammunitions
+├── check-script.sh
+├── cucumbers
+├── knives
+├── potatoes
+└── tomatoes
+```
+
+
+Remettez de l'odre dans les palettes, mais rappelez-vous que le temps presse.
+Au lieu de déplacer chaque fichier un par un, utilisez l'opérateur '\*' pour tout faire en un seul coup.
+
+Une fois le tri effectué, refermez les palettes en compressant les dossiers comme dans leur état initial tel que le schéma ci-dessous.
+```
+.
+├── check-script.sh
+├── stuff.tar.gz
+└── vegetables.zip
+```
+
+Exécutez le script de vérification pour faire le contrôle de stockage.
 
 Vous pouvez passer à la suite si tous les indicateurs sont OK.
