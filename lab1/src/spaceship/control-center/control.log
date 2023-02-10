@@ -1,0 +1,111 @@
+...
+[2022-12-20 09:00:00] #M5C03 started maintenance in reactors
+[2022-12-20 09:10:00] #L9D60 checked inventory in storage
+[2022-12-20 09:20:00] #G71Z2 reviewed system logs in control-center
+
+WARNING: temperature in reactor 2 is low
+WARNING: pressure in storage unit 3 is high
+
+[2022-12-20 09:35:00] #J8A01 joined #G71Z2 in control-center
+[2022-12-20 09:45:00] #K1B63 visited reactors
+
+WARNING: pressure in reactor 1 is fluctuating
+WARNING: temperature in control-center is low
+
+[2022-12-20 10:05:00] #V6E02 replaced a component in storage
+[2022-12-20 10:15:00] #K1B63 left reactors
+[2022-12-20 10:25:00] #J8A01 and #G71Z2 left control-center
+
+WARNING: pressure in reactor 3 is low
+WARNING: temperature in storage unit 5 is high
+
+[2022-12-20 10:40:00] #M5C03 finished maintenance in reactors
+[2022-12-20 10:50:00] #L9D60 finished checking inventory in storage
+[2022-12-20 11:00:00] #V6E02 finished replacing component in storage
+
+WARNING: pressure in reactor 1 is high
+WARNING: temperature in storage unit 4 is fluctuating
+
+[2022-12-20 11:15:00] #M5C03 entered reactors for inspection
+[2022-12-20 11:18:00] #V6E02 entered control-center without permissions /!\
+[2022-12-20 11:19:00] #V6E02 left control-center without permissions /!\
+[2022-12-20 11:25:00] #G71Z2 entered control-center to check system updates
+[2022-12-20 11:35:00] #L9D60 entered storage to perform inventory check
+
+WARNING: pressure in reactor 2 is fluctuating
+WARNING: temperature in control-center is low
+
+[2022-12-20 11:50:00] #J8A01 joined #G71Z2 in control-center
+[2022-12-20 12:00:00] #V6E02 entered storage to replace a component
+[2022-12-20 12:10:00] #K1B63 entered reactors for inspection
+
+WARNING: pressure in storage unit 3 is low
+WARNING: temperature in reactor 1 is high
+
+[2022-12-20 12:25:00] #L9D60 finished inventory check in storage
+[2022-12-20 12:35:00] #M5C03 left reactors
+[2022-12-20 12:45:00] #G71Z2 and #J8A01 left control-center
+
+WARNING: pressure in storage unit 4 is high
+WARNING: temperature in reactor 3 is low
+
+[2022-12-20 13:00:00] #V6E02 finished replacing component in storage
+[2022-12-20 13:05:00] #M5C03 entered control-center without permissions /!\
+[2022-12-20 13:08:00] #M5C03 left control-center without permissions /!\
+[2022-12-20 13:10:00] #K1B63 left reactors
+[2022-12-20 13:20:00] #L9D60 entered storage to perform another inventory check
+
+WARNING: pressure in reactor 2 is high
+WARNING: temperature in storage unit 5 is fluctuating
+
+[2022-12-20 13:35:00] #G71Z2 entered control-center to monitor systems
+[2022-12-20 13:45:00] #J8A01 entered reactors for maintenance
+[2022-12-20 13:55:00] #M5C03 entered storage to verify component levels
+
+WARNING: fuel levels in engine room are low
+WARNING: power levels in life support systems are below minimum threshold
+
+[2022-12-20 14:10:00] #V6E02 entered reactors for maintenance
+[2022-12-20 14:20:00] #K1B63 entered control-center to check system updates
+
+WARNING: life support systems reporting low oxygen levels
+WARNING: communications systems are not functioning properly
+
+[2022-12-20 14:35:00] #L9D60 entered reactors for maintenance
+[2022-12-20 14:45:00] #G71Z2 and #K1B63 left control-center
+
+WARNING: radiation levels in reactor 1 are above normal
+WARNING: navigation systems are not responding
+
+[2022-12-20 15:00:00] #J8A01 and #V6E02 finished maintenance in reactors
+[2022-12-20 15:10:00] #M5C03 finished verifying component levels in storage
+[2022-12-20 15:20:00] #L9D60 finished maintenance in reactors
+
+WARNING: multiple system failures reported
+WARNING: emergency evacuation procedures are being activated
+
+[2022-12-20 15:30:00] #G71Z2 entered the control-center to assess the system failures
+[2022-12-20 15:35:00] #J8A01 entered the reactors to check the radiation levels
+[2022-12-20 15:40:00] #M5C03 entered the storage to secure the components
+
+WARNING: pressure in engine room has dropped suddenly
+WARNING: power levels in life support systems are fluctuating
+
+[2022-12-20 15:45:00] #V6E02 entered the reactors to assist #J8A01
+[2022-12-20 15:50:00] #K1B63 entered the control-center to help #G71Z2
+
+WARNING: heat levels in reactor 2 are rising rapidly
+WARNING: communications systems are intermittently down
+
+[2022-12-20 16:00:00] #L9D60 entered the reactors to assist with the containment efforts
+[2022-12-20 16:05:00] #G71Z2 and #K1B63 left the control-center after stabilizing the systems
+
+WARNING: radiation levels in reactor 1 are still above normal
+WARNING: navigation systems are still not responding
+
+[2022-12-20 16:15:00] #J8A01, #V6E02, and #L9D60 finished the containment efforts in reactors
+[2022-12-20 16:20:00] #M5C03 finished securing the components in storage
+
+WARNING: life support systems are operating at minimum capacity
+WARNING: power levels in the engines are low and declining
+...
