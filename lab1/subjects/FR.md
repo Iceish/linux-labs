@@ -104,7 +104,7 @@ Vous avez deux missions :
 
 ### Relancer le centre de contrôle.
 
-L'attaquant a crypto-locké le centre de contrôle, le seul moyen de le déchiffrer est de lancer le script en usurpant son pseudo (*h4cker-lab*).
+L'attaquant a crypto-locké le centre de contrôle, le seul moyen de le déchiffrer est de lancer le script *unlock.sh* en usurpant son pseudo (*h4cker-lab*).
 Trouvez le moyen de lancer cette commande, rappelez-vous que vous avez tous les droits sur la machine.
 
 ### Identifier l'attaquant.
