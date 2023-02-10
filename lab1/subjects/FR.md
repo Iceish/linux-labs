@@ -91,3 +91,32 @@ Une fois le tri effectué, refermez les palettes en compressant les dossiers com
 Exécutez le script de vérification pour faire le contrôle de stockage.
 
 Vous pouvez passer à la suite si tous les indicateurs sont OK.
+
+## Centre de contrôle
+
+La fin approche ! Vous vous dépêchez d'aller dans la salle de contrôle pour essayer de retracer l'attaquant avant le décollage.
+
+Lancez le script *setup.sh* en tant que root pour initialiser la salle.
+
+Cette salle est sécurisée, vous allez être confronté à plusieurs problèmes de permissions, à vous de les régler.
+
+Vous avez deux missions :
+
+### Relancer le centre de contrôle.
+
+L'attaquant a crypto-locké le centre de contrôle, le seul moyen de le déchiffrer est de lancer le script en usurpant son pseudo (*h4cker-lab*).
+Trouvez le moyen de lancer cette commande, rappelez-vous que vous avez tous les droits sur la machine.
+
+### Identifier l'attaquant.
+
+Avec tous les indices récoltés depuis le début de cette aventure, vous devriez être en capacité de l'identifier grâce au fichier *control.log*. L'attaquant n'a pas réussi à le détruire entièrement, il reste donc quelques informations intéressantes à analyser.
+
+Un conseil, utilisez la commande *grep* pour cibler une chaîne de caractères. L'attaquant est forcément passé par le centre de contrôle sans autorisation afin de lancer son chiffrement.
+Rechercher toutes les lignes avec le centre de contrôle semble pertinent.
+PS : ``man grep``.
+
+---
+
+Si vous avez rempli ces deux missions, bravo à vous soldat, vous êtes l'Homme de la situation !
+Pensez à supprimer l'utilisateur *h4cker-lab* de votre machine.
+Le nouveau spaceship est prêt à partir en mission, sans taupe dans l'équipage.
