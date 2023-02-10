@@ -29,7 +29,7 @@ Vous constatez aussi que votre propre fichier à été supprimé !
 Copiez celui d'un autre membre, renomez le *padawan.conf*, puis modifiez les informations du fichier à votre image.
 Vous êtes assigné dans le deuxième dortoir.
 ```
-id=01-f
+id=#K1B63
 name=padawan
 age=29
 bed=10
