@@ -116,6 +116,8 @@ A tip, use the *grep* command to target a character string. The attacker had to 
 Searching for all lines with the control center seems relevant.
 PS: man grep.
 
+---
+
 If you have completed these two missions, bravo to you soldier, you are the man for the job!
 Remember to delete the *h4cker-lab*.
 The new spaceship is ready to take off without enemy onboard.
