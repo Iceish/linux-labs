@@ -11,7 +11,7 @@ mv ./setup.sh ./.launchSetupToStart/
 
 useradd h4cker-lab
 chown h4cker-lab:h4cker-lab ./control.log.enc
-
+chown h4cker-lab:h4cker-lab ./unlock.sh
 chmod 000 unlock.sh
 
 echo "================================"
