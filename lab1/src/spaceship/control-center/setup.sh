@@ -10,9 +10,15 @@ cp ./.launchSetupToStart/control.log.enc ./
 mv ./setup.sh ./.launchSetupToStart/
 
 useradd h4cker-lab
+
 chown h4cker-lab:h4cker-lab ./control.log.enc
+chmod 700 ./control.log.enc
+
 chown h4cker-lab:h4cker-lab ./unlock.sh
-chmod 000 unlock.sh
+chmod 000 ./unlock.sh
+
+chown root:root ./.launchSetupToStart
+chmod 700 ./.launchSetupToStart
 
 echo "================================"
 echo "|         Setup Script         |"
