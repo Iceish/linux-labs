@@ -1,123 +1,184 @@
-# Linux Lab 1 - English
+﻿# Linux Lab 1 - English 🇺🇸
 
+<img align="right" alt="Spaceship" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spaceship.png" width="280px"/>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<div align="center">
 You are the engineer in charge of the new spaceship on a mission to conquer an exoplanet.
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
 
-However, you just noticed 1 hour before takeoff that a crew member has compromised the ship's configuration file, making it non-operational. It is impossible to reschedule the originally scheduled takeoff time. So you have exactly 1 hour to perform miracles, find the culprit, and repair the ship. Good luck soldier!
-
+However, you just noticed **1 hour before takeoff** that a crew member has **compromised the ship's configuration**, making it **non-operational**. It is impossible to reschedule the originally scheduled takeoff time. So you have exactly 1 hour to perform miracles, **find the culprit**, and **repair the ship**. Good luck soldier! *Chop, chop !*
+  
 ## System Access
 
-With your Linux machine, go to the *src* folder of the cloned project, then enter the *spaceship* folder.
+With your linux machine, **head to** the **_src_** file in the cloned project, then **enter** the **_spaceship_** folder.
 
-List all the folders in the spaceship to verify that the following folders are present: *dormitories*, *reactors*.
+**List** all the **folders** in the spaceship in order to **verify** that the following folders are present :
 
+ - Dormitories
+ - Reactors
+ - Storage
+ - Control-center
+
+> Verify clone integrity.
+  
 ## Dormitories
+  
+<img align="left" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/dormitory.png" width="280px"/>
+<img align="left" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>
 
-Enter the *dormitories* folder.
+Enter the **_dormitories_** folder.
 
-The dormitory configurations are used to assign beds to crew members and contain some additional information that you will discover.
+Dormitories configurations are used to **assign beds** to crew members and contain some additionnal information that you will discover.
 
-How many dormitories are there?
+> How many dormitories are there?
 
-In each dormitory, you will find a file for each crew member.
-As well as a global configuration file indicating the color of the bracelet associated with the dormitory.
+In each dormitory, you'll find a **file for each crew member** with a **global configuration file** pointing out the bracelet color associated with the dormitory.
 
 List each dormitory to get the total number of registered members.
 
-During the analysis, you notice that the attacker moved Karen's configuration file to the wrong dormitory. Put it back in dormitory #1.
+> How many members are there? (including yourself)
 
-You also notice that your own file has been deleted!
-Copy the file from another member, rename it *padawan.conf*, then modify the file information to reflect your image.
-You are assigned to the second dormitory.
+During the analysis, you noticed that the **attacker has moved** the Karen's configuration file into the **wrong** dormitory.
 
-```
-id=#K1B63
-name=padawan
-age=29
-bed=10
-role=global supervisor
-```
-Everything seems to be in order, run the verification script at the root of the *dormitories* folder.
+> Move it back where it belongs.
 
-You can move on if all indicators are OK.
+You also noticed that **your own file has been deleted**!
 
+You are 'padawan', identified as '#K1B63' with the 'global supervisor' role. You're 29 years old and assigned to the second dormitory into the n°10 bed.
+
+> Create your configuration file into the corresponding dormitory.
+
+Hint : Copy-paste the file from another member and rename it *padawan.conf*, then edit informations in it.
+
+Everything seems to be in order, run **verification script** _check-script.sh_ at the **_dormitories_** root folder.
+  
+> Verify dormitories configuration.
+  
+You can move on if **all indicators** are **OK**.
+  
 ## Reactors
+  
+<img align="right" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/reactor.png" width="280px"/>
+<img align="right" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>
 
-Upon analyzing the reactor configurations, you realize that one of the two is incomplete. Which one?
+Upon analyzing reactors configurations files, you realize that **one of the two** is **incomplete**.
 
-Complete the incomplete reactor configuration with the other information in the folder. Check with your knowledge;
+> Which one is incomplete?
+  
+**Every information** that you need **can be found** in **reactor folder**.
 
-The *fuel-type* field specifies what type of fuel is used. You will find the information in a file (maybe hidden).
+> Create and complete *engine.conf* file for the malfunctionning reactor.
+  
+ - **Fuel-type ** field specify what **kind of fuel** is used. You would certainly find this information in a notice (maybe hidden).
+ - **Quantity** field corresponds to the **_fuel_** file size in KB.
+ - **Engine-with-stater** is a bit harder to find. Indeed, **many files** and **subdirectories** are in **_engines_** folder. However, keep in mind that the ship is **taking off soon**! To save time, you decide to **install** a **package** to **list everything at one**. Install the **_tree_** command with apt, then **use it** on the **_engines_** folder. When you **have targeted** the **starters**, go **back to the source** to get the **engine number** _(ie:1,2 or 3)_.
 
-The quantity field corresponds to the size of the *fuel* file in KB.
 
-The *engine-with-starter* field is difficult to find. In fact, many files and subdirectories are in *engines*. However, remember that the ship is taking off soon! To save time, you decide to install a package to list everything at once. Install the tree command with apt, then use it on the *engines* folder.
-When you have targeted the starters, go back to the source to get the engine number (1,2, or 3)
+When you think you have the **right configuration**, run the verification script at the root of the _reactors_ folder.
 
-When you think you have the right configuration, run the verification script at the root of the *reactors* folder.
-
-You can move on if all indicators are OK.
-
+> Verify reactors configuration.
+  
+You can move on if **all indicators** are **OK**.
+  
 ## Storage
 
-Your colleague Karen, the storage room operator, informs you that the attacker has caused chaos in the different storage pallets, preventing the control of food rations.
+<img align="left" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/storage.png" width="280px"/>
+<img align="left" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>
 
-She adds that she found the button of a bracelet on the ground next to the vegetable palette, and with a little luck, the attacker dropped his colorful bracelet in it.
+Your colleague **Karen**; the storage room operator, informs your that the **attacker** has **caused cahos** in the differentes stroage pallets, **preventing** the **control** of **food rations**.
+  
+She **adds** that se **found the button** of a **bracelet** on the ground next to the vegetables palette, and **with a bit of luck**, the **attacker dropped** his **colored bracelet** in it.
 
-Unzip the two available pallets, and analyze their contents.
+<br/>
 
-Your *storage* folder should look like the following diagram:
+> Unzip the two available pallets, and analyze their contents.
+
+Your **_storage_** folder should **look like the following diagram**:
+```  
+.  
+├── ammunitions  
+├── check-script.sh  
+├── cucumbers  
+├── knives  
+├── potatoes  
+└── tomatoes  
+```  
+  
+> Put order back into the pallets, but keep in mind that time is of the essence.
+
+Hint: Instead of moving each file one by one, **use** the **'\*' operator** to do it all at once.
+
+> Once the sorting is done, close the pallets by compressing the folders back to their original state as shown in the following diagram.
 
 ```
-.
-├── ammunitions
-├── check-script.sh
-├── cucumbers
-├── knives
-├── potatoes
-└── tomatoes
-```
-
-Put order back into the pallets, but remember that time is of the essence.
-Instead of moving each file one by one, use the '\*' operator to do it all in one shot.
-
-Once the sorting is done, close the pallets by compressing the folders back to their original state as shown in the following diagram.
-
-```
-.
-├── check-script.sh
-├── stuff.tar.gz
+.  
+├── check-script.sh  
+├── stuff.tar.gz  
 └── vegetables.zip
 ```
+Now, the health and safety protocol should pass.
 
-Run the verification script to check the storage.
+> Launch the palets control.
+  
+You can move on if **all indicators** are **OK**.
+  
+## Control center
 
-You can proceed to the next step if all indicators are OK.
+<img align="right" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/control-center.png" width="280px"/>
+<img align="right" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>
 
-## Control Center
+**The end is near!** You hurry to the control room to try to **trace the attacker** before the takeoff.
 
-The end is near! You hurry to the control room to try to trace the attacker before takeoff.
+> Launch *setup.sh* script as root to initalize the room.
 
-Run the *setup.sh* script as root to initialize the room.
+This room is **secure**, you 'll be faced with **several permissions problems**, it's up to you to fix'em.
 
-This room is secure, you will be faced with several permission problems, it's up to you to fix them.
-
-You have two missions:
-
+You have to missions:
+  
 ### Restart the control center.
+  
+The attacker has **crypto-locked** the control center, the only way to **decode** the system is by **launching** the **_unlock.sh_** script by **usurping** his **username** (_h4cker-lab_).
 
-The attacker has crypto-locked the control center, the only way to decipher it is to launch the script *unlock.sh* by usurping his username (*h4cker-lab*).
-Find a way to launch this command, remember that you have full rights on the machine.
-
+> Find the command for launching a command with someone else identity, and unlock the system.
+  
 ### Identify the attacker.
 
-With all the clues collected since the beginning of this adventure, you should be able to identify them using the *control.log* file. The attacker failed to destroy it entirely, so there are still some interesting information to analyze.
+With all the **clues collected** since the beginning of this adventure, you **should be able** to **identify** him using the **_control.log_** file. The attacker **failed to destroy it entirely**, so there are **still some interesting information** to **analyze**.
 
-A tip, use the *grep* command to target a character string. The attacker had to go through the control center without authorization in order to launch his encryption.
-Searching for all lines with the control center seems relevant.
-PS: man grep.
+A **tip**, use the **_grep_** command _(read the man)_ in order to **target** a **character string**. The **attacker had to go through** the **control center without authorization** in order to launch his encryption.
+Searching for all lines including ``control-center`` seems relevant.
+
+> Identify the attacker, and kick him off!
+
+*Note: Rembember that there is only one attacker.*
+
+---  
+  
+If you're here, **bravo to you soldier**, you are the man for the job!
+
+Remember to delete the *h4cker-lab* account on your machine.
+
+The **new spaceship** is **ready** to take off **without enemy** onboard.
 
 ---
 
-If you have completed these two missions, bravo to you soldier, you are the man for the job!
-Remember to delete the *h4cker-lab*.
-The new spaceship is ready to take off without enemy onboard.
+<img align="left" alt="End" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/end.png" width="280px"/>
+<img align="left" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="100px" height="280px"/>
+
+<br/>
+<br/>
+<br/>
+
+Your mission commander,
+
+EnzoGzz.
+
+
