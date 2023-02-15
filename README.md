@@ -1,3 +1,4 @@
+[< Go back to the main menu.](https://github.com/EnzoGzz/linux-labs/tree/master)
 #  <img align="left" alt="Dormitory" src="/assets/spaceship.png" width="50x"/>&nbsp; Labs 1 - Fundamentals
 
 **Welcome** on the first linux labs! This module will go through linux fundamentals.
@@ -35,4 +36,4 @@ The content can be found under the _src_ folder.
 
 ---
 
-[> Go back to the main menu.](https://github.com/EnzoGzz/linux-labs/tree/master)
+[> Go to the next lab. _(Comming soon)_](https://github.com/EnzoGzz/linux-labs/tree/lab1-fundamentals)
