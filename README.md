@@ -2,7 +2,11 @@
 
 **Welcome** on the first linux labs! This module will go through linux fondamentals.
 
-During your training, you will learn how to **navigate** a Linux system file, **creating**, **deleting**, **editing**, **moving**, **inspecting**, and **searching** for **files** and **folders**. Additionally, you will also **gain knowledge** on how to **compress** and **uncompress** files using tools such as **tar** and **zip**. You will also get to **test your understanding** of **permissions**, and learn how to **install packages** and **execute scripts**. These skills are **crucial** for any individual looking to work with Linux systems, and will provide you with a **solid foundation** to build upon.
+During your training, you will learn how to **navigate** a Linux system file, **creating**, **deleting**, **editing**, **moving**, **inspecting**, and **searching** for **files** and **folders**.
+Additionally, you will also **gain knowledge** on how to **compress** and **uncompress** files using tools such as **tar** and **zip**.
+You will also get to **test your understanding** of **permissions**, and learn how to **install packages** and **execute scripts**.
+
+These skills are **crucial** for any individual looking to work with Linux systems, and will provide you with a **solid foundation** to build upon.
 
 ### 🌀 How to clone
 
