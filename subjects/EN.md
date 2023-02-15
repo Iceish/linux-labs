@@ -1,4 +1,4 @@
-﻿[< Go back to the presentation.](/)
+﻿[< Go back to the presentation.](/README.md)
 # Linux Lab 1 - English 🇺🇸
 
 <img align="right" alt="Spaceship" src="/assets/spaceship.png" width="280px"/>
