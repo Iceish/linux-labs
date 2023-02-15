@@ -1,20 +1,32 @@
-# Linux Labs
+#  <img align="left" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spaceship.png" width="50x"/>&nbsp; Labs 1 - Fundamentals
 
-Welcome on linux labs !
+**Welcome** on the first linux labs!
 
-Choose your lab, then :
+### 🌀 How to clone
 
-Get instructions in *subjects* folder, and open it in your browser.
-
-You will need *git* in order to clone this repository.
-
-use
-```bash
-git clone https://github.com/EnzoGzz/linux-labs.git
+```
+git clone -b lab1-fundamentals https://github.com/EnzoGzz/linux-labs.git
 ```
 
-The content is in the *src* folder.
+The content can be found under the _src_ folder.
 
-/!\ Please, DO NOT look in *check-scripts* because it may contain awnsers. Be fair, that's the way you will improve. /!\
+###  📄 Subjects
 
-Enjoy !
+[🇫🇷 French subject](./subjects/FR.md)
+[🇬🇧 English subject](./subjects/FR.md)
+
+### ✅ Prerequisites
+
+ - Linux system with [**bash**](https://opensource.com/resources/what-bash).
+ - [**Git**](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed on the machine.
+ - **Motivation** and willing to learn.
+
+### ⭕ Rules
+
+ - DO NOT look in _check-scripts_ files, they may contain answers.
+ - DO NOT use root account, except for changing owner (*chown*) when needed.
+ - DO NOT share answers. Publish a walkthrough is allowed tho.
+
+---
+
+[> Go back to the main menu.](/EnzoGzz/linux-labs/tree/master)
