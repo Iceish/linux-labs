@@ -77,7 +77,7 @@ Upon analyzing reactors configurations files, you realize that **one of the two*
 
 > Create and complete *engine.conf* file for the malfunctionning reactor.
   
- - **Fuel-type ** field specify what **kind of fuel** is used. You would certainly find this information in a notice (maybe hidden).
+ - **Fuel-type** field specify what **kind of fuel** is used. You would certainly find this information in a notice (maybe hidden).
  - **Quantity** field corresponds to the **_fuel_** file size in KB.
  - **Engine-with-stater** is a bit harder to find. Indeed, **many files** and **subdirectories** are in **_engines_** folder. However, keep in mind that the ship is **taking off soon**! To save time, you decide to **install** a **package** to **list everything at one**. Install the **_tree_** command with apt, then **use it** on the **_engines_** folder. When you **have targeted** the **starters**, go **back to the source** to get the **engine number** _(ie:1,2 or 3)_.
 
