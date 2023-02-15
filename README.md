@@ -12,8 +12,8 @@ The content can be found under the _src_ folder.
 
 ###  📄 Subjects
 
-[🇫🇷 French subject](./subjects/FR.md)
-[🇬🇧 English subject](./subjects/FR.md)
+ - [🇫🇷 French subject](./subjects/FR.md)
+ - [🇬🇧 English subject](./subjects/FR.md)
 
 ### ✅ Prerequisites
 
