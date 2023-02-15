@@ -29,4 +29,4 @@ The content can be found under the _src_ folder.
 
 ---
 
-[> Go back to the main menu.](/EnzoGzz/linux-labs/tree/master)
+[> Go back to the main menu.](https://github.com/EnzoGzz/linux-labs/tree/lab1-fundamentals)
