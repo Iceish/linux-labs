@@ -31,8 +31,8 @@ Avec votre machine linux, **dirigez vous** dans le **dossier _src_** du projet c
   
 ## Dortoirs  
   
-  <img align="left" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/dormitory.png" width="280px"/>
-  <img align="left" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>
+<img align="left" alt="Dormitory" src="/assets/dormitory.png" width="280px"/>
+<img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 **Entrez** dans le dossier **_dormitories_**.  
   
@@ -59,14 +59,14 @@ Indice : Copiez celui d'un autre membre, renomez le *padawan.conf*, puis modifie
 
 Tout à l'aire en ordre, executez le **script de vérification** _check-script.sh_ à la racine du dossier *dormitories*.  
   
-  > Vérifiez la configuration des dortoires.
+> Vérifiez la configuration des dortoires.
   
 Vous pouvez passez à la suite si **tous les indicateurs** sont **OK**.  
   
 ## Réacteurs  
   
-  <img align="right" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/reactor.png" width="280px"/>
-  <img align="right" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>
+<img align="right" alt="Dormitory" src="/assets/reactor.png" width="280px"/>
+<img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
   
 En analysant les configurations des réacteurs, vous vous rendez compte que l'**un des deux** est **incomplet**.
 
@@ -84,14 +84,14 @@ En analysant les configurations des réacteurs, vous vous rendez compte que l'**
  
 Lorsque vous pensez avoir la **bonne configuration**, executez le script de vérification à la racine du dossier *reactors*.  
 
-  > Vérifiez la configuration des réacteurs.
+> Vérifiez la configuration des réacteurs.
   
 Vous pouvez passez à la suite si **tous les indicateurs** sont **OK**.  
   
 ## Stockage  
 
-<img align="left" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/storage.png" width="280px"/>
-  <img align="left" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>  
+<img align="left" alt="Dormitory" src="/assets/storage.png" width="280px"/>
+<img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>  
 
 Votre collègue **Karen**, opératrice de la salle de stockage vous informe que **l'attaquant** a **mis le bazar** dans les differentes **palettes** de stockage, **empêchant** le **contrôle** des **rations** de nourriture.  
   
@@ -123,16 +123,17 @@ Indice : Au lieu de déplacer chaque fichier un par un, **utilisez l'opérateur 
 ├── stuff.tar.gz  
 └── vegetables.zip
 ```  
- Maintenant, le protocole d'hygiène et de sécurité devrait passer.
+
+Maintenant, le protocole d'hygiène et de sécurité devrait passer.
  
-   > Lancez le contrôle des palettes.
+> Lancez le contrôle des palettes.
   
 Vous pouvez passez à la suite si **tous les indicateurs** sont **OK**.  
   
 ## Centre de contrôle  
 
-  <img align="right" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/control-center.png" width="280px"/>
-  <img align="right" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>  
+<img align="right" alt="Dormitory" src="/assets/control-center.png" width="280px"/>
+<img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>  
 
 **La fin approche !** Vous vous dépêchez d'aller dans la salle de contrôle pour essayer de **retracer l'attaquant** avant le décollage.  
   
@@ -169,8 +170,8 @@ Le **nouveau spaceship** est **prêt** à partir en mission, **sans taupe** dans
 
 ---
 
- <img align="left" alt="End" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/end.png" width="280px"/> 
-   <img align="left" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="100px" height="280px"/>  
+<img align="left" alt="End" src="/assets/end.png" width="280px"/> 
+<img align="left" alt="Spacer" src="/assets/spacer.png" width="100px" height="280px"/>  
 
 <br/>
 <br/>

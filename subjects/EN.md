@@ -1,6 +1,6 @@
 ﻿# Linux Lab 1 - English 🇺🇸
 
-<img align="right" alt="Spaceship" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spaceship.png" width="280px"/>
+<img align="right" alt="Spaceship" src="/assets/spaceship.png" width="280px"/>
 
 <br/>
 <br/>
@@ -31,8 +31,8 @@ With your linux machine, **head to** the **_src_** file in the cloned project, t
   
 ## Dormitories
   
-<img align="left" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/dormitory.png" width="280px"/>
-<img align="left" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>
+<img align="left" alt="Dormitory" src="/assets/dormitory.png" width="280px"/>
+<img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 Enter the **_dormitories_** folder.
 
@@ -66,8 +66,8 @@ You can move on if **all indicators** are **OK**.
   
 ## Reactors
   
-<img align="right" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/reactor.png" width="280px"/>
-<img align="right" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>
+<img align="right" alt="Dormitory" src="/assets/reactor.png" width="280px"/>
+<img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 Upon analyzing reactors configurations files, you realize that **one of the two** is **incomplete**.
 
@@ -90,8 +90,8 @@ You can move on if **all indicators** are **OK**.
   
 ## Storage
 
-<img align="left" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/storage.png" width="280px"/>
-<img align="left" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>
+<img align="left" alt="Dormitory" src="/assets/storage.png" width="280px"/>
+<img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 Your colleague **Karen**; the storage room operator, informs your that the **attacker** has **caused cahos** in the differentes stroage pallets, **preventing** the **control** of **food rations**.
   
@@ -132,8 +132,8 @@ You can move on if **all indicators** are **OK**.
   
 ## Control center
 
-<img align="right" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/control-center.png" width="280px"/>
-<img align="right" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="15px" height="280px"/>
+<img align="right" alt="Dormitory" src="/assets/control-center.png" width="280px"/>
+<img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 **The end is near!** You hurry to the control room to try to **trace the attacker** before the takeoff.
 
@@ -170,8 +170,8 @@ The **new spaceship** is **ready** to take off **without enemy** onboard.
 
 ---
 
-<img align="left" alt="End" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/end.png" width="280px"/>
-<img align="left" alt="Spacer" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spacer.png" width="100px" height="280px"/>
+<img align="left" alt="End" src="/assets/end.png" width="280px"/>
+<img align="left" alt="Spacer" src="/assets/spacer.png" width="100px" height="280px"/>
 
 <br/>
 <br/>
