@@ -1,4 +1,4 @@
-﻿[< Go back to the presentation.](/README.md)
+﻿[< Revenir à la présentation.](/README.md)
 # Linux Lab 1 - Français 🇫🇷 
 
 <img align="right" alt="Spaceship" src="/assets/spaceship.png" width="280px"/>
