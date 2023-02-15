@@ -1,4 +1,4 @@
-#  <img align="left" alt="Dormitory" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spaceship.png" width="50x"/>&nbsp; Labs 1 - Fundamentals
+#  <img align="left" alt="Dormitory" src="/assets/spaceship.png" width="50x"/>&nbsp; Labs 1 - Fundamentals
 
 **Welcome** on the first linux labs!
 
@@ -29,4 +29,4 @@ The content can be found under the _src_ folder.
 
 ---
 
-[> Go back to the main menu.](https://github.com/EnzoGzz/linux-labs/tree/lab1-fundamentals)
+[> Go back to the main menu.](https://github.com/EnzoGzz/linux-labs/tree/master)
