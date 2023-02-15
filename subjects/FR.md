@@ -1,6 +1,6 @@
 ﻿# Linux Lab 1 - Français 🇫🇷 
 
-<img align="right" alt="Spaceship" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/master/lab1/assets/spaceship.png" width="280px"/>
+<img align="right" alt="Spaceship" src="/assets/spaceship.png" width="280px"/>
 
 <br/>
 <br/>
