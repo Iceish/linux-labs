@@ -1,4 +1,5 @@
-﻿# Linux Lab 1 - Français 🇫🇷 
+﻿[< Go back to the presentation.](/)
+# Linux Lab 1 - Français 🇫🇷 
 
 <img align="right" alt="Spaceship" src="/assets/spaceship.png" width="280px"/>
 
