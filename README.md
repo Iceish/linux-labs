@@ -1,6 +1,6 @@
 #  <img align="left" alt="Dormitory" src="/assets/spaceship.png" width="50x"/>&nbsp; Labs 1 - Fundamentals
 
-**Welcome** on the first linux labs! This module will go through linux fondamentals.
+**Welcome** on the first linux labs! This module will go through linux fundamentals.
 
 During your training, you will learn how to **navigate** a Linux system file, **creating**, **deleting**, **editing**, **moving**, **inspecting**, and **searching** for **files** and **folders**.
 Additionally, you will also **gain knowledge** on how to **compress** and **uncompress** files using tools such as **tar** and **zip**.
