@@ -5,6 +5,7 @@ if [ "$EUID" -ne 0 ]
   exit 1
 fi
 
+chmod o+rwx ./
 cat ./.launchSetupToStart/unlock.sh.enc | base64 -d > unlock.sh
 cp ./.launchSetupToStart/control.log.enc ./
 mv ./setup.sh ./.launchSetupToStart/
