@@ -59,7 +59,35 @@ Note : Cette modification nécessite un redémarrage de la machine.
 
 ## Configuration réseau
 
+Afin d'établir le contact avec la station terrestre, vous établissez une configuration IP statique.
 
+La configuration DHCP par défaut se trouve dans _/etc/network/interfaces_.
+
+> Renseignez-vous et configurez votre machine en IPv4 statique.
+
+Une fois la connexion établie, vous pouvez envoyer vos rapports générés précédements via le script _send\_files\_to\_earth.sh_.
+
+Note : Utilisez l'agument _-h_ ou _--help_ pour afficher la syntaxe du script.
+
+# 07h49 - Il y a du monde par ici
+
+Alors que vous venez tout juste de finir l'envoie des rapports, vous appercevez Victor un membre de l'équipe courir soudainement vers vous en faisant de grands mouvements et un visage pouvant traduire la terreur.
+
+Vous comprenez enfin lorsque à l'horizon, d'impressionantes silouhaites se dressent parmis les rayons du soleil. Vous vous faites attaquer par une forme de vie inconnue !
+
+Heureusement pour vous, vôtre préparation en amont vont vous permettre de venir à bout de ce problème. Après plusieurs secondes de doute, ça y'est, vous les identifiez. Ce sont ce qu'on appel : "des proccessus zombies" !
+
+Une forme de vie envahisante et mauvaise pour vos systèmes. Bien que ce sont des processus avant tout, il sont nocives et réservent des ressources qu'ils n'exploitent plus.
+
+> Occupez-vous de ces processus zombies, il faut les éliminer.
+
+Note : Commencez par les repérer et identifier (PID)! 
+    
+    _" Qui connaît son ennemi comme il se connaît, en cent combats ne sera point défait. "_
+
+Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
+
+> Lancez le drone pour vérifier les horizons.
 
 
 ---
