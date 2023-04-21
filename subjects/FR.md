@@ -89,6 +89,29 @@ Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
 
 > Lancez le drone pour vérifier les horizons.
 
+# 9h10 - Préparation du terrain
+
+fdisk
+
+# 11h41 - Récolte des ressources
+
+find - locate
+
+# 14h26 - La vengance des processus
+
+Proc forked, killall
+
+# 16h03 - Interferances
+
+trace route - dig - nslookup - ping
+
+# 18h57 - Automatisation 
+
+Bashrc - Services
+
+# 20h32 - Rapport journalier
+
+flux : <> |
 
 ---
 
