@@ -24,9 +24,11 @@ Vous allez devoir créer plusieurs fichiers de verification à envoyer au centre
 
 Le centre de contrôle demande un rendu des évenements importants qui se sont produits pendant l'atterisage.
 Les prérequis sont les suivants :
-- Seul les champs d'état et le meessage sont à rensgner. (la date ne doit pas figurer)
+- Seul les champs d'état et le message sont à renseigner. (la date ne doit pas figurer)
 - Les champs doivent être triés par état. (asendant)
 > Créez ce rapport d'événements.
+
+_Note : utilisez les enchainements de commandes avec le pipe bash et les redirecteurs de flux._
 
 Il est aussi important d'avoir un compte des évenements afin de produire des statistiques d'amélioration.
 Le fichier doit être sous la forme suivante :
