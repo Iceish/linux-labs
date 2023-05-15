@@ -37,7 +37,7 @@ errors 0
 ```
 > Créez un fichier compteur des événements.
 
-Avant d'envoyer ces rapports au centre de contrôle terrestre, verifiez la conformité des données via le script _check\_conformity.sh_
+Avant d'envoyer ces rapports au centre de contrôle terrestre, verifiez la conformité des données avec la commande``lab``.
 
 # 06h53 - Installation des équipements de communication & connexion vers le centre de contrôle
 
