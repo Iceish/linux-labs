@@ -39,6 +39,8 @@ errors 0
 ```
 > Créez un fichier compteur des événements.
 
+_Note : il exite une commande pour compter sur linux, à vous faire des recherches._
+
 Avant d'envoyer ces rapports au centre de contrôle terrestre, verifiez la conformité des données avec la commande``lab``.
 
 # 06h53 - Installation des équipements de communication & connexion vers le centre de contrôle
