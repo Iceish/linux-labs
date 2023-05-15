@@ -1,0 +1,40 @@
+ ERROR | Bio-containment breach detected in 4A-f container - quarantine protocol initiated
+ ERROR | Critical system failure - data transmission interrupted
+ INFO | All systems nominal - altitude at 0m
+ INFO | All systems nominal - mission control has authorized extended surface operations
+ INFO | Atmospheric composition analysis in progress - pressure at 800kPa
+ INFO | Attempting to re-establish communication link with Earth - pressure at 800kPa
+ INFO | Communication link established with Earth - temperature at 250K
+ INFO | Crew disembarkation initiated
+ INFO | Data transmission to Earth initiated - pressure at 700kPa
+ INFO | Emergency power system activated
+ INFO | Entering planetary atmosphere
+ INFO | Environmental analysis in progress
+ INFO | Fuel injection system activated - pressure at 2000kPa
+ INFO | Full diagnostic check initiated - pressure at 600kPa
+ INFO | Geological survey in progress
+ INFO | Health checks in progress
+ INFO | Landing gear deployed - altitude at 1000m
+ INFO | Landing site survey initiated - pressure at 900kPa
+ INFO | Landing system initialized
+ INFO | Navigation system online - current location determined
+ INFO | Pressure control - OK
+ INFO | Radioactive isotope detection - levels below safe limit
+ INFO | Sample analysis complete - composition matches predictions
+ INFO | Sample collection equipment deployed - temperature at 400K
+ INFO | Shutting down engines - temperature at 500K
+ INFO | Soil sampling equipment deployed - atmospheric pressure at 0.2 bar
+ INFO | Solar flare detected - wear sun protections
+ INFO | Solar panels online - power levels stable 
+ INFO | Surface sample analysis in progress - temperature at 300K
+ INFO | Touchdown successful - altitude at 0m
+ INFO | Turbine engines engaged - altitude at 5000m
+ WARNING | Electric circuits eb506 - DAMAGED
+ WARNING | Emergency landing procedure initiated - pressure at 1000kPa
+ WARNING | External radiation levels detected - caution advised
+ WARNING | Hull integrity compromised - temperature rising to 2000K
+ WARNING | Life support system malfunction detected - oxygen levels decreasing
+ WARNING | Sandstorm approaching - estimated in 3 hours
+ WARNING | Secondary communication system failure - unable to establish link with Earth
+ WARNING | Thermal control system malfunction detected - temperature rising to 1500K
+ WARNING | Unidentified substance in 4A-f container - quarantine protocol upgraded to Level 2
