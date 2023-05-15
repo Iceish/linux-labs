@@ -27,7 +27,7 @@ case "$cmd" in
 		echo "Lab command"
 		echo ""
 		echo "DESCRIPTION"
-		echo "This is an alias that launch '.backend\\index.sh file with parameters.'"
+		echo "This is an alias that launch '.backend\\index.sh' file with parameters."
 		echo ""
 		echo "SYNTAX"
 		echo "lab <cmd>"
