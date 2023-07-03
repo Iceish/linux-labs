@@ -69,7 +69,7 @@ La configuration DHCP par défaut se trouve dans _/etc/network/interfaces_.
 
 > Renseignez-vous et configurez votre machine en IPv4 statique.
 
-Une fois la connexion établie, vous pouvez envoyer vos rapports générés précédements via le script _send\_files\_to\_earth.sh_.
+Une fois la connexion établie, vous pouvez envoyer vos rapports générés précédements. Verifiez la connexion avec la commande ``lab``.
 
 Note : Utilisez l'agument _-h_ ou _--help_ pour afficher la syntaxe du script.
 
