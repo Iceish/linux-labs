@@ -24,11 +24,9 @@ case "$cmd" in
 	"check_connection")
 		diff "/etc/hostname" "./.backend/hostname.anwser" &> /dev/null
 		one=$?
-		echo $one
 		echo "$(cat /etc/hosts | grep 127.0.1.1 | tr -s ' ' | cut -d ' ' -f 2)" > ./.backend/hosts.tmp
 		diff "./.backend/hosts.tmp" "./.backend/hostname.anwser" &> /dev/null
 		two=$?
-		echo $two
 		result=$(($one * $two))
 		echo $result
 		if  [ "$result" -eq "0" ]; then
@@ -36,6 +34,8 @@ case "$cmd" in
 		else
 			echo "failed";
 		fi
+
+		rm -f "./.backend/hosts.tmp"
 	;;
 	
 
