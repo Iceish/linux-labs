@@ -15,19 +15,19 @@ case "$cmd" in
 	"check_count")
 		diff "count_landing_report.txt" "./.backend/count_landing_report.anwser" &> /dev/null
 		if [ "$?" -eq "0" ]; then
-		echo "succed";
+			echo "succed";
 		else
-		echo "failed";
+			echo "failed";
 		fi
 	;;
 
-	"check_connection")
+	"check_hostname")
 		diff "/etc/hostname" "./.backend/hostname.anwser" &> /dev/null
 		one=$?
-		echo "$(cat /etc/hosts | grep 127.0.1.1 | tr -s ' ' | cut -d ' ' -f 2)" > ./.backend/hosts.tmp
+		echo "$(cat /etc/hosts | grep 127.0.1.1 | tr -s ' ' | cut -d ' ' -f 2)" &> ./.backend/hosts.tmp
 		diff "./.backend/hosts.tmp" "./.backend/hostname.anwser" &> /dev/null
 		two=$?
-		result=$(($one * $two))
+		result=$(($one + $two))
 		echo $result
 		if  [ "$result" -eq "0" ]; then
 			echo "succed";
@@ -36,6 +36,21 @@ case "$cmd" in
 		fi
 
 		rm -f "./.backend/hosts.tmp"
+	;;
+
+	"check_network")
+		cat /etc/network/interfaces 2> /dev/null | grep "inet static" &> /dev/null
+		one=$?
+		ping -c 1 google.fr &> /dev/null
+		two=$?
+		result=$(($one + $two))
+		if [ "$result" -eq "0" ]; then
+			echo "succed";	
+		else
+			echo "failed";
+		fi
+		
+		
 	;;
 	
 
