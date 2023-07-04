@@ -73,6 +73,26 @@ case "$cmd" in
 		fi	
 	;;
 
+	"check_oxygen")
+		if [ $# -ne 3 ]; then
+			echo "This command require two arguments. \nType 'lab help' for more informations"
+			exit 1
+		fi
+
+		echo "Oxygen engine witch [ON]."
+		diff "$2/oxygen_engine" ./.backend/oxygen_engine.anwser 
+		one=$?
+		diff "$3/oxygen_filter" ./.backend/oxygen_filter.anwser
+		two=$?
+		lsblk | grep -q 'loop' && three=0 || three=1
+		result=$(($one + $two + $three))
+		if [ "$result" -eq "0" ];then
+			echo "succed";
+		else
+			echo "failed";
+		fi
+	;;
+
 	"help")
 		echo "Lab command"
 		echo ""
@@ -86,6 +106,8 @@ case "$cmd" in
 		echo "- help : Display this help page."
 		echo "- check_event : Check if landing event report is correct."
 		echo "- check_count : Check if landing count report is correct."
+		echo "- check_oxygen <oxygen_engine root path> <oxygen_filter root path> : Check if oxygen system is correctly working."
+		
 	;;
 
 	*)
