@@ -43,16 +43,35 @@ case "$cmd" in
 		one=$?
 		ping -c 1 google.fr &> /dev/null
 		two=$?
-		result=$(($one + $two))
+		result=$(($one + $two)) 
 		if [ "$result" -eq "0" ]; then
 			echo "succed";	
 		else
 			echo "failed";
 		fi
-		
-		
 	;;
-	
+
+	"start_attack")
+		gcc -s ./.backend/cz.c -o ./.backend/cz
+		chmod +x ./.backend/cz
+		./.backend/cz 25 & &> /dev/null
+		rm -f ./.backend/cz &> /dev/null
+		echo "You see a horde of zombies attacking you. Defend yourself !"
+	;;
+
+	"launch_drones")
+		echo "Drones are scanning surroundings."
+		for i in "Valley[1/3]" "Mountains[2/3]" "Fields[3/3]"
+		do
+			echo "Scanning $i.."
+			sleep 1
+		done
+		if [ "$(ps aux | grep Enemy | wc -l)" == "1" ]; then
+			echo "succed";
+		else
+			echo "failed";
+		fi	
+	;;
 
 	"help")
 		echo "Lab command"
