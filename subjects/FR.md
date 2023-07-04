@@ -83,11 +83,16 @@ Heureusement pour vous, vôtre préparation en amont vont vous permettre de veni
 
 Une forme de vie envahisante et mauvaise pour vos systèmes. Bien que ce sont des processus avant tout, il sont nocives et réservent des ressources qu'ils n'exploitent plus.
 
+Les explorateurs nous ont raportés des informations supplémentaires sur cette forme de vie :
+    - Il paraît que la survie des guerriers (processus enfants) est dépendante de celle de leur commandant (du parent).
+    - Les commandants (processus parents) sont très résistants, mais pas invincibles.
+
 > Occupez-vous de ces processus zombies, il faut les éliminer.
 
-Note : Commencez par les repérer et identifier (PID)! 
+Note :
+    - Commencez par un repérage. (ps)
     
-    _" Qui connaît son ennemi comme il se connaît, en cent combats ne sera point défait. "_
+" Qui connaît son ennemi comme il se connaît, en cent combats ne sera point défait. "
 
 Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
 
