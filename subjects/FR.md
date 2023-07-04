@@ -89,8 +89,7 @@ Les explorateurs nous ont raportés des informations supplémentaires sur cette 
 
 > Occupez-vous de ces processus zombies, il faut les éliminer.
 
-Note :
-    - Commencez par un repérage. (ps)
+Note : Commencez par un repérage. (ps)
     
 ```" Qui connaît son ennemi comme il se connaît, en cent combats ne sera point défait. "```
 
