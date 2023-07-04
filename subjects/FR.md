@@ -92,7 +92,7 @@ Les explorateurs nous ont raportés des informations supplémentaires sur cette 
 Note :
     - Commencez par un repérage. (ps)
     
-" Qui connaît son ennemi comme il se connaît, en cent combats ne sera point défait. "
+```" Qui connaît son ennemi comme il se connaît, en cent combats ne sera point défait. "```
 
 Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
 
