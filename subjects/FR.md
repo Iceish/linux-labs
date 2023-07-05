@@ -146,7 +146,23 @@ Note : Vous pouvez vérifier avec la commande ``lsblk``.
 
 # 11h41 - Récolte des ressources
 
-find - locate
+Une des raison de votre excurtion est de récolter des ressources inconnues disponnible sur cette planète.
+
+Dans le dossier "planet", vous trouverez de nombeuses ressources assez banales, mais parmis elles se cache des matières exotiques encore jamais récoltés.
+Vous devez donc les trouver et les récuperer.
+
+Utilisez la commande ``find`` pour les différentes ressources ci-dessous.
+Chaque ressource se trouve avec une méthode de recherche différentes.
+
+Liste des matières exotiques à prélever :
+
+    - Laskite
+    - Irinite
+    - Nexarium
+    - Upprixite
+    - Xamanite 
+
+> Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via la commmande ``lab launch_mineral_scan``
 
 # 14h26 - La vengance des processus
 
