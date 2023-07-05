@@ -98,9 +98,51 @@ Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
 
 > Lancez le drone pour vérifier les horizons.
 
-# 9h10 - Préparation du terrain
+# 9h10 - Installation du système d'oxygène
 
-fdisk
+Vos réserves d'oxygène vous permettent de tenir 72h, il est donc temps de mettre en place le système de syntétisation d'oxygène.
+
+Le système à du être séparé en deux parties (moteur et filtre) pour le trajet dû aux mélanges chimiques opposés.
+Le filtre se trouve à bord du vaisseau, cepandant le moteur à été stocké dans un conteneur sous la forme d'une image disque.
+
+## Ouverture du conteneur
+
+> Quel est le type de fichier ?
+
+Note : ``man file``.
+
+> Chargez l'image virtuellement via la commande `lab load_disk_image`. Renseignez vous sur son fonctionnement avec `lab help`.
+
+Maintenant, vous pouvez vérifier avec `lsblk` que le disque est détecté. Il est donc temps de faire un point de montage afin d'y accèder.
+
+> Montez le disque sur _/mnt/container_.
+
+Note : Vous allez devoir créer un dossier.
+
+> Déplacez le moteur dans le vaisseau pour préparer l'étape suivante.
+
+## Assemblage du système
+
+L'emplacement du système à déja été préparer, c'est l'image vide nommée "oxygen_platform.img".
+
+> Vérifiez le type du fichier.
+
+Il est temps de partitionner ce disque.
+L'objectif est le suivant : Créer deux partitions formatés en ``ext4``, de 15Mb et 10Mb environ. Ensuite, nous pourrons placer nos deux composants réspectivement dans chaqu'une des partitions.
+
+> Utilisez l'utilitaire ``fdisk`` sur l'image, et créez deux partitions primaires comme expliqué ci-dessus.
+
+> Chargez l'image virtuellement via la commande `lab load_disk_image`.
+
+Note : Vous pouvez vérifier avec la commande ``lsblk``.
+
+> Montez les deux partitions dans deux dossier différents.
+
+> Déplacez le moteur dans la partition de 15Mb, et le filtre dans celle de 10Mb.
+
+## Démarrage du système
+
+> Avec la commande `lab launch_oxygen_system`, lancez la machine !
 
 # 11h41 - Récolte des ressources
 
