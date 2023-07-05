@@ -170,6 +170,16 @@ Proc forked, killall
 
 # 16h03 - Interferances
 
+La station spatiale vous informe qu'il vous ont connecté à internet.
+Vérifiez le bon fonctionnement du réseau.
+
+> Commencez par ping ``google.com``
+
+> Tracez le chemin par lequel passe les requêtes.
+
+> Quel est le serveur DNS en charge de vos résolutions ?
+
+
 trace route - dig - nslookup - ping
 
 # 18h57 - Automatisation 
