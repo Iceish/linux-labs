@@ -73,7 +73,7 @@ case "$cmd" in
 		fi	
 	;;
 
-	"check_oxygen")
+	"check_oxygen_system")
 		if [ $# -ne 3 ]; then
 			echo "This command require two arguments. \nType 'lab help' for more informations"
 			exit 1
