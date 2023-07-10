@@ -169,11 +169,21 @@ Liste des matières exotiques à prélever :
 Lorsque vous utilisez Linux, de nombeux services fonctionnent en tâche de fond afin de vous simplifier la vie.
 Afin de pouvoir accèder à votre machine à travers le réseau, vous allez ouvrir l'accès en SSH.
 
+Les services sont appelés des _démons_ sur Linux. De ce fait, la plus part des noms de services finissent par un 'd'.
+
 > Demarrez et activez le service ``sshd``.
+
+Il est également possible de s'informer sur l'état et les dernières logs d'un service.
 
 > Vérifez le status du service.
 
+Lorsque vous modifiez la configuration d'un service, il faut généralement le rédémarrer.
+
+Note : C'est par exemple ce que vous avez fait lorsque vous avez définit votre ip en statique.
+
 > Modifiez le port du service, et redemarrez le pour constater le changement.
+
+Il ne reste plus qu'à tester !
 
 > Connectez vous en SSH sur le port configuré.
 
