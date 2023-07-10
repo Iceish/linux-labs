@@ -164,9 +164,20 @@ Liste des matières exotiques à prélever :
 
 > Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via la commmande ``lab launch_mineral_scan``
 
-# 14h26 - La vengance des processus
+# 14h26 - Services
 
-Proc forked, killall
+Lorsque vous utilisez Linux, de nombeux services fonctionnent en tâche de fond afin de vous simplifier la vie.
+Afin de pouvoir accèder à votre machine à travers le réseau, vous allez ouvrir l'accès en SSH.
+
+> Demarrez et activez le service ``sshd``.
+
+> Vérifez le status du service.
+
+> Modifiez le port du service, et redemarrez le pour constater le changement.
+
+> Connectez vous en SSH sur le port configuré.
+
+Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez.
 
 # 16h03 - Interferences
 
@@ -182,9 +193,16 @@ Vérifiez le bon fonctionnement du réseau.
 Note : Renseignez vous sur la commande ``dig``
 
 
-# 18h57 - Automatisation 
+# 18h57 - Automatisation
 
-Bashrc - Services
+Il est temps d'optimiser votre temps. Vous avez pour mission de régulièrement surveiller les données des capteurs.
+Le script ``get_sensors_data.sh`` permet de vous afficher ces données traités.
+
+Le premier objectif est d'afficher ces données à l'ouverture d'un terminal.
+
+> Automatisez son execution via le fichier ``.bashrc``
+
+Note : Le fichier ``.bashrc`` s'execute à chaque ouverture de terminal.
 
 # 20h32 - Rapport journalier
 
