@@ -168,7 +168,7 @@ Liste des matières exotiques à prélever :
 
 Proc forked, killall
 
-# 16h03 - Interferances
+# 16h03 - Interferences
 
 La station spatiale vous informe qu'il vous ont connecté à internet.
 Vérifiez le bon fonctionnement du réseau.
@@ -178,9 +178,8 @@ Vérifiez le bon fonctionnement du réseau.
 > Tracez le chemin par lequel passe les requêtes.
 
 > Quel est le serveur DNS en charge de vos résolutions ?
+Note : Renseignez vous sur la commande ``dig``
 
-
-trace route - dig - nslookup - ping
 
 # 18h57 - Automatisation 
 
