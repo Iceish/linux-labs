@@ -214,9 +214,13 @@ Le premier objectif est d'afficher ces données à l'ouverture d'un terminal.
 
 Note : Le fichier ``.bashrc`` s'execute à chaque ouverture de terminal.
 
-# 20h32 - Rapport journalier
+---
 
-flux : <> |
+Épuisé par une journée intense sur l'exoplanète LNX-4EVER, vous vous échappez vers la nuit étoilée. La brume fraîche et la beauté du paysage étrange vous entourent. Les montagnes majestueuses émergent d'une brume légère, tandis que les étoiles brillent au-dessus de vous.
+
+Dans ce silence paisible, vous réfléchissez à l'aventure incroyable que vous avez vécue : les défis relevés, les mystères résolus, les ressources exotiques découvertes. Une excitation persiste malgré la fatigue, car demain vous poursuivrez votre exploration, repoussant les limites de votre connaissance.
+
+Grâce à cette opportunité unique, vous vous sentez à la fois insignifiant face à l'immensité de l'univers et privilégié d'être ici, vivant une aventure extraordinaire. Vous vous endormez, bercé par la beauté du paysage, prêt à affronter de nouvelles découvertes et défis à venir.
 
 ---
 
