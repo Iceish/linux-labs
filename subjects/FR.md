@@ -25,8 +25,7 @@ Il est 05h26, vous venez tout juste d'atterir sur l'exo-planete LNX-4EVER. Vous 
 Il est temps de reprendre vos esprits et de commencer le travail ! Pendant que l'équipage s'équipe pour l'exploration, vous vérifiez que l'atterissage s'est correctement déroulé.
 Vous allez devoir créer plusieurs fichiers de verification à envoyer au centre de control.
 
-
-<br/>
+<br clear="left"/>
 
 Le centre de contrôle demande un rendu des évenements importants qui se sont produits pendant l'atterisage.
 Les prérequis sont les suivants :
