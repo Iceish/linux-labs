@@ -41,7 +41,7 @@ errors 0
 
 _Note : il exite une commande pour compter sur linux, à vous faire des recherches._
 
-Avant d'envoyer ces rapports au centre de contrôle terrestre, verifiez la conformité des données avec la commande``lab``.
+Avant d'envoyer ces rapports au centre de contrôle terrestre, verifiez la conformité des données avec la l'utilitaire ``lab``.
 
 # 06h53 - Installation des équipements de communication & connexion vers le centre de contrôle
 
@@ -69,7 +69,7 @@ La configuration DHCP par défaut se trouve dans _/etc/network/interfaces_.
 
 > Renseignez-vous et configurez votre machine en IPv4 statique.
 
-Une fois la connexion établie, vous pouvez envoyer vos rapports générés précédements. Verifiez la connexion avec la commande ``lab``.
+Une fois la connexion établie, vous pouvez envoyer vos rapports générés précédements. Verifiez la connexion avec l'utilitaire ``lab``.
 
 Note : Utilisez l'agument _-h_ ou _--help_ pour afficher la syntaxe du script.
 
@@ -96,7 +96,7 @@ Note : Commencez par un repérage. (ps)
 
 Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
 
-> Lancez le drone pour vérifier les horizons.
+> Lancez le drone pour vérifier les horizons avec l'utilitaire ``lab``.
 
 # 9h10 - Installation du système d'oxygène
 
@@ -142,7 +142,7 @@ Note : Vous pouvez vérifier avec la commande ``lsblk``.
 
 ## Démarrage du système
 
-> Avec la commande `lab launch_oxygen_system`, lancez la machine !
+> Avec l'utilitaire ``lab``, lancez la machine !
 
 # 11h41 - Récolte des ressources
 
@@ -162,7 +162,7 @@ Liste des matières exotiques à prélever :
     - Upprixite : le nom du fichier contient la chaîne de charactère suivante : "shFY". 
     - Xamanite : le nom du fichier contient les charactères u,j,d dans l'ordre respectif. Il est à noter que ce minerais ce trouve uniquement après 5 de profondeurs.
 
-> Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via la commmande ``lab launch_mineral_scan``
+> Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via l'utilitaire ``lab``
 
 # 14h26 - Services
 
