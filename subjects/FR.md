@@ -218,7 +218,7 @@ Liste des matières exotiques à prélever :
 - **Upprixite** : le nom du fichier contient la chaîne de charactère suivante : "shFY". 
 - **Xamanite** : le nom du fichier contient les charactères u,j,d dans l'ordre respectif. Il est à noter que ce minerais ce trouve uniquement après 5 de profondeurs.
 
-> Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via l'utilitaire `lab`
+> Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via l'utilitaire `lab`.
 
 # 14h26 - Services
 
