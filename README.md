@@ -1,5 +1,5 @@
 [< Go back to the main menu.](https://github.com/EnzoGzz/linux-labs/tree/master)
-#  <img align="left" alt="Dormitory" src="/assets/end.png" width="50x"/>&nbsp; Labs 2 - Intermediate
+#  <img align="left" alt="Landed Spaceship" src="/assets/spaceship_landed.png" width="50x"/>&nbsp; Labs 2 - Intermediate
 
 
 ### 🌀 How to clone
