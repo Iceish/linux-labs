@@ -11,7 +11,7 @@
 Vous êtes l'ingénieur à la tête du nouveau spaceship en mission pour conquerir une exo-planète. 
 </div>
 <br clear="right"/>
-<br>
+<br/>
 &nbsp;Il est 05h26, vous venez tout juste d'atterir sur l'exo-planete LNX-4EVER. Vous observez avec émerveillement le paysage qui s'étend devant vous. Une étendue de terre rocailleuse et aride, baignée par la lumière pâle de l'aube naissante. Les montagnes se dressent majestueusement à l'horizon, leurs sommets émergeant d'une brume matinale légère. Des touffes d'herbe brune s'agitent doucement dans le vent frais du matin, et de petits animaux étranges courent furtivement entre les rochers. Vous savez que vous avez beaucoup de travail à faire pour préparer la mission à venir, mais pour l'instant, vous vous contentez de contempler ce paysage aussi étrange que magnifique qui s'offre à vous. 
 
 # 06h12 - Vérifications et contrôls
@@ -29,6 +29,7 @@ Vous allez devoir créer plusieurs fichiers de verification à envoyer au centre
 </div>
 
 <br clear="left"/>
+<br/>
 
 Le centre de contrôle demande un rendu des évenements importants qui se sont produits pendant l'atterisage.
 Les prérequis sont les suivants :
@@ -68,6 +69,7 @@ Après que votre équipage ai déployé l'antenne, votre mission est de configur
 </div>
 
 <br clear="right"/>
+<br/>
 
 ## Hostname
 
@@ -115,6 +117,7 @@ Une forme de vie envahisante et mauvaise pour vos systèmes. Bien que ce sont de
 </div>
 
 <br clear="left"/>
+<br/>
 
 Les explorateurs nous ont raportés des informations supplémentaires sur cette forme de vie :
 
@@ -145,6 +148,7 @@ Vos réserves d'oxygène vous permettent de tenir 72h, il est donc temps de mett
 </div>
 
 <br clear="right"/>
+<br/>
 
 Le système à du être séparé en deux parties (moteur et filtre) pour le trajet dû aux mélanges chimiques opposés.
 Le filtre se trouve à bord du vaisseau, cepandant le moteur à été stocké dans un conteneur sous la forme d'une image disque.
@@ -205,6 +209,7 @@ Vous devez donc les trouver et les récuperer.
 </div>
 
 <br clear="left"/>
+<br/>
 
 Utilisez la commande `find` pour les différentes ressources ci-dessous.
 Chaque ressource se trouve avec une méthode de recherche différentes.
@@ -234,6 +239,7 @@ Afin de pouvoir accèder à votre machine à travers le réseau, vous allez ouvr
 </div>
 
 <br clear="right"/>
+<br/>
 
 Les services sont appelés des "démons" sur Linux. De ce fait, la plus part des noms de services finissent par un 'd'.
 
@@ -269,6 +275,7 @@ La station spatiale vous informe qu'ils vous ont connecté à internet.
 </div>
 
 <br clear="left"/>
+<br/>
 
 Vérifiez le bon fonctionnement du réseau.
 
@@ -295,6 +302,7 @@ Il est temps d'optimiser votre temps. Vous avez pour mission de régulièrement 
 </div>
 
 <br clear="right"/>
+<br/>
 
 Le script `get_sensors_data.sh` permet de vous afficher ces données traités.
 
