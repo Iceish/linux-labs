@@ -12,7 +12,7 @@ Vous êtes l'ingénieur à la tête du nouveau spaceship en mission pour conquer
 </div>
 <br clear="right"/>
 <br>
-    Il est 05h26, vous venez tout juste d'atterir sur l'exo-planete LNX-4EVER. Vous observez avec émerveillement le paysage qui s'étend devant vous. Une étendue de terre rocailleuse et aride, baignée par la lumière pâle de l'aube naissante. Les montagnes se dressent majestueusement à l'horizon, leurs sommets émergeant d'une brume matinale légère. Des touffes d'herbe brune s'agitent doucement dans le vent frais du matin, et de petits animaux étranges courent furtivement entre les rochers. Vous savez que vous avez beaucoup de travail à faire pour préparer la mission à venir, mais pour l'instant, vous vous contentez de contempler ce paysage aussi étrange que magnifique qui s'offre à vous. 
+&nbsp;Il est 05h26, vous venez tout juste d'atterir sur l'exo-planete LNX-4EVER. Vous observez avec émerveillement le paysage qui s'étend devant vous. Une étendue de terre rocailleuse et aride, baignée par la lumière pâle de l'aube naissante. Les montagnes se dressent majestueusement à l'horizon, leurs sommets émergeant d'une brume matinale légère. Des touffes d'herbe brune s'agitent doucement dans le vent frais du matin, et de petits animaux étranges courent furtivement entre les rochers. Vous savez que vous avez beaucoup de travail à faire pour préparer la mission à venir, mais pour l'instant, vous vous contentez de contempler ce paysage aussi étrange que magnifique qui s'offre à vous. 
 
 # 06h12 - Vérifications et contrôls
 
@@ -23,8 +23,10 @@ Vous êtes l'ingénieur à la tête du nouveau spaceship en mission pour conquer
 <br/>
 <br/>
 <br/>
+<div align="center">
 Il est temps de reprendre vos esprits et de commencer le travail ! Pendant que l'équipage s'équipe pour l'exploration, vous vérifiez que l'atterissage s'est correctement déroulé.
 Vous allez devoir créer plusieurs fichiers de verification à envoyer au centre de control.
+</div>
 
 <br clear="left"/>
 
@@ -57,7 +59,15 @@ Avant d'envoyer ces rapports au centre de contrôle terrestre, vérifiez la conf
 <img align="right" alt="Spaceship rack" src="/assets/connection.png" width="280px"/>
 <img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<div align="center">
 Après que votre équipage ai déployé l'antenne, votre mission est de configurer la machine.
+</div>
+
+<br clear="right"/>
 
 ## Hostname
 
@@ -90,6 +100,11 @@ _Note : Utilisez l'agument -h ou --help pour afficher la syntaxe du script._
 <img align="left" alt="Zombies attack" src="/assets/attack.png" width="280px"/>
 <img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<div align="center">
 Alors que vous venez tout juste de finir l'envoie des rapports, vous appercevez Victor un membre de l'équipe courir soudainement vers vous en faisant de grands mouvements et un visage pouvant traduire la terreur.
 
 Vous comprenez enfin lorsque à l'horizon, d'impressionantes silouhaites se dressent parmis les rayons du soleil. Vous vous faites attaquer par une forme de vie inconnue !
@@ -97,6 +112,9 @@ Vous comprenez enfin lorsque à l'horizon, d'impressionantes silouhaites se dres
 Heureusement pour vous, vôtre préparation en amont vont vous permettre de venir à bout de ce problème. Après plusieurs secondes de doute, ça y'est, vous les identifiez. Ce sont ce qu'on appel : "des proccessus zombies" !
 
 Une forme de vie envahisante et mauvaise pour vos systèmes. Bien que ce sont des processus avant tout, il sont nocives et réservent des ressources qu'ils n'exploitent plus.
+</div>
+
+<br clear="left"/>
 
 Les explorateurs nous ont raportés des informations supplémentaires sur cette forme de vie :
 
@@ -118,7 +136,15 @@ Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
 <img align="right" alt="Oxygen generator" src="/assets/oxygen.png" width="280px"/>
 <img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<div align="center">
 Vos réserves d'oxygène vous permettent de tenir 72h, il est donc temps de mettre en place le système de syntétisation d'oxygène.
+</div>
+
+<br clear="right"/>
 
 Le système à du être séparé en deux parties (moteur et filtre) pour le trajet dû aux mélanges chimiques opposés.
 Le filtre se trouve à bord du vaisseau, cepandant le moteur à été stocké dans un conteneur sous la forme d'une image disque.
@@ -167,10 +193,18 @@ _Note : Vous pouvez vérifier avec la commande `lsblk`._
 <img align="left" alt="Exo-planet landscape" src="/assets/ressources.png" width="280px"/>
 <img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<div align="center">
 Une des raison de votre excurtion est de récolter des ressources inconnues disponnible sur cette planète.
 
 Dans le dossier "planet", vous trouverez de nombeuses ressources assez banales, mais parmis elles se cache des matières exotiques encore jamais récoltés.
 Vous devez donc les trouver et les récuperer.
+</div>
+
+<br clear="left"/>
 
 Utilisez la commande `find` pour les différentes ressources ci-dessous.
 Chaque ressource se trouve avec une méthode de recherche différentes.
@@ -190,8 +224,16 @@ Liste des matières exotiques à prélever :
 <img align="right" alt="Futuristic computer" src="/assets/services.png" width="280px"/>
 <img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<div align="center">
 Lorsque vous utilisez Linux, de nombeux services fonctionnent en tâche de fond afin de vous simplifier la vie.
 Afin de pouvoir accèder à votre machine à travers le réseau, vous allez ouvrir l'accès en SSH.
+</div>
+
+<br clear="right"/>
 
 Les services sont appelés des "démons" sur Linux. De ce fait, la plus part des noms de services finissent par un 'd'.
 
@@ -218,7 +260,16 @@ _Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez._
 <img align="left" alt="Antenna" src="/assets/interferences.png" width="280px"/>
 <img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<div align="center">
 La station spatiale vous informe qu'ils vous ont connecté à internet.
+</div>
+
+<br clear="left"/>
+
 Vérifiez le bon fonctionnement du réseau.
 
 > Commencez par ping "google.com".
@@ -235,7 +286,16 @@ _Note : Renseignez vous sur la commande `dig`._
 <img align="right" alt="Robot" src="/assets/automation.png" width="280px"/>
 <img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
+<br/>
+<br/>
+<br/>
+<br/>
+<div align="center">
 Il est temps d'optimiser votre temps. Vous avez pour mission de régulièrement surveiller les données des capteurs.
+</div>
+
+<br clear="right"/>
+
 Le script `get_sensors_data.sh` permet de vous afficher ces données traités.
 
 Le premier objectif est d'afficher ces données à l'ouverture d'un terminal.
