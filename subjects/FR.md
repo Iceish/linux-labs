@@ -197,7 +197,7 @@ _Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez._
 La station spatiale vous informe qu'ils vous ont connecté à internet.
 Vérifiez le bon fonctionnement du réseau.
 
-> Commencez par ping "google.com"
+> Commencez par ping "google.com".
 
 > Tracez le chemin par lequel passe les requêtes.
 
@@ -213,7 +213,7 @@ Le script `get_sensors_data.sh` permet de vous afficher ces données traités.
 
 Le premier objectif est d'afficher ces données à l'ouverture d'un terminal.
 
-> Automatisez son execution via le fichier `.bashrc`
+> Automatisez son execution via le fichier `.bashrc`.
 
 _Note : Le fichier `.bashrc` s'execute à chaque ouverture de terminal._
 
