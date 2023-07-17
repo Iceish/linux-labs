@@ -71,6 +71,8 @@ Après que votre équipage ai déployé l'antenne, votre mission est de configur
 <br clear="right"/>
 <br/>
 
+⚠️ Les privilèges "root" sont nécessaires pour cette section.
+
 ## Hostname
 
 Commencez par modifier le nom de la machine en rapport avec la mission.
@@ -146,6 +148,8 @@ Vos réserves d'oxygène vous permettent de tenir 72h, il est donc temps de mett
 <br clear="right"/>
 <br/>
 
+⚠️ Les privilèges "root" sont nécessaires pour cette section.
+
 Le système à du être séparé en deux parties (moteur et filtre) pour le trajet dû aux mélanges chimiques opposés.
 Le filtre se trouve à bord du vaisseau, cepandant le moteur à été stocké dans un conteneur sous la forme d'une image disque.
 
@@ -180,6 +184,10 @@ L'objectif est le suivant : Créer deux partitions formatés en "ext4", de 15Mb 
 
 _Note : Vous pouvez vérifier avec la commande `lsblk`._
 
+> Formatez les deux partitions en "ext4".
+
+_Note : La taille de ces partions peuvent être approximatifs._
+
 > Montez les deux partitions dans deux dossier différents.
 
 > Déplacez le moteur dans la partition de 15Mb, et le filtre dans celle de 10Mb.
@@ -187,6 +195,12 @@ _Note : Vous pouvez vérifier avec la commande `lsblk`._
 ## Démarrage du système
 
 > Avec l'utilitaire `lab`, lancez la machine !
+
+Une fois que la ressource n'est plus nécessaire, la bonne pratique est de retirer le point de montage.
+
+> Utilisez `umount` sur nos ressources.
+
+> Executez la commande `sudo losetup -D` pour retirer les disques viruels.
 
 # 11h41 - Récolte des ressources
 
@@ -236,6 +250,8 @@ Afin de pouvoir accèder à votre machine à travers le réseau, vous allez ouvr
 
 <br clear="right"/>
 <br/>
+
+⚠️ Les privilèges "root" sont nécessaires pour cette section.
 
 Les services sont appelés des "démons" sur Linux. De ce fait, la plus part des noms de services finissent par un 'd'.
 
