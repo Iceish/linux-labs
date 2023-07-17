@@ -26,26 +26,29 @@ Le centre de contrôle demande un rendu des évenements importants qui se sont p
 Les prérequis sont les suivants :
 - Seul les champs d'état et le message sont à renseigner. (la date ne doit pas figurer)
 - Les champs doivent être triés par état. (asendant)
+
 > Créez ce rapport d'événements.
 
 _Note : utilisez les enchainements de commandes avec le pipe bash et les redirecteurs de flux._
 
 Il est aussi important d'avoir un compte des évenements afin de produire des statistiques d'amélioration.
 Le fichier doit être sous la forme suivante :
+
 ```
 infos 0
 warnings 0
 errors 0
 ```
+
 > Créez un fichier compteur des événements.
 
 _Note : il exite une commande pour compter sur linux, à vous faire des recherches._
 
-Avant d'envoyer ces rapports au centre de contrôle terrestre, verifiez la conformité des données avec la l'utilitaire `lab`.
+Avant d'envoyer ces rapports au centre de contrôle terrestre, vérifiez la conformité des données avec la l'utilitaire `lab`.
 
 # 06h53 - Installation des équipements de communication & connexion vers le centre de contrôle
 
-Après que votre équipage ai déployé l'antenne, votre mission est configurer la machine.
+Après que votre équipage ai déployé l'antenne, votre mission est de configurer la machine.
 
 ## Hostname
 
@@ -123,12 +126,12 @@ _Note : Vous allez devoir créer un dossier._
 
 ## Assemblage du système
 
-L'emplacement du système à déja été préparer, c'est l'image vide nommée "oxygen_platform.img".
+L'emplacement du système à déja été préparer, c'est l'image vide nommée `oxygen_platform.img`.
 
 > Vérifiez le type du fichier.
 
 Il est temps de partitionner ce disque.
-L'objectif est le suivant : Créer deux partitions formatés en `ext4`, de 15Mb et 10Mb environ. Ensuite, nous pourrons placer nos deux composants réspectivement dans chaqu'une des partitions.
+L'objectif est le suivant : Créer deux partitions formatés en "ext4", de 15Mb et 10Mb environ. Ensuite, nous pourrons placer nos deux composants réspectivement dans chaqu'une des partitions.
 
 > Utilisez l'utilitaire `fdisk` sur l'image, et créez deux partitions primaires comme expliqué ci-dessus.
 
@@ -156,11 +159,11 @@ Chaque ressource se trouve avec une méthode de recherche différentes.
 
 Liste des matières exotiques à prélever :
 
-- Laskite : le nom de fichier est "Laskite".
-- Irinite : le fichier fait plus de 40 Mo.
-- Nexarium : il existe un lien symbolique sur le fichier.
-- Upprixite : le nom du fichier contient la chaîne de charactère suivante : "shFY". 
-- Xamanite : le nom du fichier contient les charactères u,j,d dans l'ordre respectif. Il est à noter que ce minerais ce trouve uniquement après 5 de profondeurs.
+- **Laskite** : le nom de fichier est "Laskite".
+- **Irinite** : le fichier fait plus de 40 Mo.
+- **Nexarium** : il existe un lien symbolique sur le fichier.
+- **Upprixite** : le nom du fichier contient la chaîne de charactère suivante : "shFY". 
+- **Xamanite** : le nom du fichier contient les charactères u,j,d dans l'ordre respectif. Il est à noter que ce minerais ce trouve uniquement après 5 de profondeurs.
 
 > Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via l'utilitaire `lab`
 
@@ -169,9 +172,9 @@ Liste des matières exotiques à prélever :
 Lorsque vous utilisez Linux, de nombeux services fonctionnent en tâche de fond afin de vous simplifier la vie.
 Afin de pouvoir accèder à votre machine à travers le réseau, vous allez ouvrir l'accès en SSH.
 
-Les services sont appelés des _démons_ sur Linux. De ce fait, la plus part des noms de services finissent par un 'd'.
+Les services sont appelés des "démons" sur Linux. De ce fait, la plus part des noms de services finissent par un 'd'.
 
-> Demarrez et activez le service `sshd`.
+> Demarrez et activez le service "sshd".
 
 Il est également possible de s'informer sur l'état et les dernières logs d'un service.
 
@@ -194,7 +197,7 @@ _Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez._
 La station spatiale vous informe qu'ils vous ont connecté à internet.
 Vérifiez le bon fonctionnement du réseau.
 
-> Commencez par ping `google.com`
+> Commencez par ping "google.com"
 
 > Tracez le chemin par lequel passe les requêtes.
 
