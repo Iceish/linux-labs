@@ -4,7 +4,7 @@ cmd="$1"
 case "$cmd" in
 
 	"check_event" )
-		diff "event_landing_report.txt" "./.backend/event_landing_report.anwser" &> /dev/null
+		diff "event_landing_report.txt" "$LAB_BACKEND/control/event_landing_report.anwser" &> /dev/null
 		if [ "$?" -eq "0" ]; then
 			echo "succed";
 		else
@@ -13,7 +13,7 @@ case "$cmd" in
 	;;
 
 	"check_count")
-		diff "count_landing_report.txt" "./.backend/count_landing_report.anwser" &> /dev/null
+		diff "count_landing_report.txt" "$LAB_BACKEND/control/count_landing_report.anwser" &> /dev/null
 		if [ "$?" -eq "0" ]; then
 			echo "succed";
 		else
@@ -22,10 +22,10 @@ case "$cmd" in
 	;;
 
 	"check_hostname")
-		diff "/etc/hostname" "./.backend/hostname.anwser" &> /dev/null
+		diff "/etc/hostname" "$LAB_BACKEND/connection/hostname.anwser" &> /dev/null
 		one=$?
-		echo "$(cat /etc/hosts | grep 127.0.1.1 | tr -s ' ' | cut -d ' ' -f 2)" &> ./.backend/hosts.tmp
-		diff "./.backend/hosts.tmp" "./.backend/hostname.anwser" &> /dev/null
+		echo "$(cat /etc/hosts | grep 127.0.1.1 | tr -s ' ' | cut -d ' ' -f 2)" &> $LAB_BACKEND/hosts.tmp
+		diff "$LAB_BACKEND/connection/hosts.tmp" "$LAB_BACKEND/connection/hostname.anwser" &> /dev/null
 		two=$?
 		result=$(($one + $two))
 		echo $result
@@ -35,7 +35,7 @@ case "$cmd" in
 			echo "failed";
 		fi
 
-		rm -f "./.backend/hosts.tmp"
+		rm -f "$LAB_BACKEND/connection/hosts.tmp"
 	;;
 
 	"check_network")
@@ -52,10 +52,10 @@ case "$cmd" in
 	;;
 
 	"start_attack")
-		gcc -s ./.backend/cz.c -o ./.backend/cz
-		chmod +x ./.backend/cz
-		./.backend/cz 25 & &> /dev/null
-		rm -f ./.backend/cz &> /dev/null
+		gcc -s $LAB_BACKEND/attack/cz.c -o $LAB_BACKEND/attack/cz
+		chmod +x $LAB_BACKEND/attack/cz
+		$LAB_BACKEND/attack/cz 25 & &> /dev/null
+		rm -f $LAB_BACKEND/attack/cz &> /dev/null
 		echo "You see a horde of zombies attacking you. Defend yourself !"
 	;;
 
@@ -80,9 +80,9 @@ case "$cmd" in
 		fi
 
 		echo "Oxygen engine witch [ON]."
-		diff "$2/oxygen_engine" ./.backend/oxygen_engine.anwser 
+		diff "$2/oxygen_engine" $LAB_BACKEND/oxygen/oxygen_engine.anwser 
 		one=$?
-		diff "$3/oxygen_filter" ./.backend/oxygen_filter.anwser
+		diff "$3/oxygen_filter" $LAB_BACKEND/oxygen/oxygen_filter.anwser
 		two=$?
 		lsblk | grep -q 'loop' && three=0 || three=1
 		result=$(($one + $two + $three))
@@ -97,7 +97,7 @@ case "$cmd" in
 		echo "Lab command"
 		echo ""
 		echo "DESCRIPTION"
-		echo "This is an alias that launch '.backend\\index.sh' file with parameters."
+		echo "This tool help to validate linux lab tasks."
 		echo ""
 		echo "SYNTAX"
 		echo "lab <cmd>"
