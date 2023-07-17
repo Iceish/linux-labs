@@ -27,7 +27,7 @@ The content can be found under the _src_ folder.
 
 ### ⭕ Rules
 
- - DO NOT look in ``.backend`` folder, they may contain answers.
+ - DO NOT look in ``.backend`` folder, it may contain answers.
  - DO NOT use root account, unless explicitly said on subject.
  - Publish a walkthrough is allowed.
 
