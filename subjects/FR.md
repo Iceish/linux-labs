@@ -103,9 +103,6 @@ _Note : Utilisez l'agument -h ou --help pour afficher la syntaxe du script._
 <img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 <br/>
-<br/>
-<br/>
-<br/>
 <div align="center">
 Alors que vous venez tout juste de finir l'envoie des rapports, vous appercevez Victor un membre de l'équipe courir soudainement vers vous en faisant de grands mouvements et un visage pouvant traduire la terreur.
 
