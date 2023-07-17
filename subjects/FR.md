@@ -85,8 +85,8 @@ Une forme de vie envahisante et mauvaise pour vos systèmes. Bien que ce sont de
 
 Les explorateurs nous ont raportés des informations supplémentaires sur cette forme de vie :
 
-    - Il paraît que la survie des guerriers (processus enfants) est dépendante de celle de leur commandant (du parent).
-    - Les commandants (processus parents) sont très résistants, mais pas invincibles.
+- Il paraît que la survie des guerriers (processus enfants) est dépendante de celle de leur commandant (du parent).
+- Les commandants (processus parents) sont très résistants, mais pas invincibles.
 
 > Occupez-vous de ces processus zombies, il faut les éliminer.
 
@@ -156,11 +156,11 @@ Chaque ressource se trouve avec une méthode de recherche différentes.
 
 Liste des matières exotiques à prélever :
 
-    - Laskite : le nom de fichier est "Laskite".
-    - Irinite : le fichier fait plus de 40 Mo.
-    - Nexarium : il existe un lien symbolique sur le fichier.
-    - Upprixite : le nom du fichier contient la chaîne de charactère suivante : "shFY". 
-    - Xamanite : le nom du fichier contient les charactères u,j,d dans l'ordre respectif. Il est à noter que ce minerais ce trouve uniquement après 5 de profondeurs.
+- Laskite : le nom de fichier est "Laskite".
+- Irinite : le fichier fait plus de 40 Mo.
+- Nexarium : il existe un lien symbolique sur le fichier.
+- Upprixite : le nom du fichier contient la chaîne de charactère suivante : "shFY". 
+- Xamanite : le nom du fichier contient les charactères u,j,d dans l'ordre respectif. Il est à noter que ce minerais ce trouve uniquement après 5 de profondeurs.
 
 > Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via l'utilitaire `lab`
 
