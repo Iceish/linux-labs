@@ -36,4 +36,4 @@ The content can be found under the _src_ folder.
 
 ---
 
-[> Go to the next lab. _(Comming soon)_](https://github.com/EnzoGzz/linux-labs/tree/lab1-fundamentals)
+[> Go to the next lab.](https://github.com/EnzoGzz/linux-labs/tree/lab2-intermediate)
