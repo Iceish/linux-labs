@@ -41,7 +41,7 @@ errors 0
 
 _Note : il exite une commande pour compter sur linux, à vous faire des recherches._
 
-Avant d'envoyer ces rapports au centre de contrôle terrestre, verifiez la conformité des données avec la l'utilitaire ``lab``.
+Avant d'envoyer ces rapports au centre de contrôle terrestre, verifiez la conformité des données avec la l'utilitaire `lab`.
 
 # 06h53 - Installation des équipements de communication & connexion vers le centre de contrôle
 
@@ -69,7 +69,7 @@ La configuration DHCP par défaut se trouve dans _/etc/network/interfaces_.
 
 > Renseignez-vous et configurez votre machine en IPv4 statique.
 
-Une fois la connexion établie, vous pouvez envoyer vos rapports générés précédements. Verifiez la connexion avec l'utilitaire ``lab``.
+Une fois la connexion établie, vous pouvez envoyer vos rapports générés précédements. Verifiez la connexion avec l'utilitaire `lab`.
 
 _Note : Utilisez l'agument -h ou --help pour afficher la syntaxe du script._
 
@@ -96,7 +96,7 @@ _Note : Commencez par un repérage. (ps)_
 
 Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
 
-> Lancez le drone pour vérifier les horizons avec l'utilitaire ``lab``.
+> Lancez le drone pour vérifier les horizons avec l'utilitaire `lab`.
 
 # 9h10 - Installation du système d'oxygène
 
@@ -109,9 +109,9 @@ Le filtre se trouve à bord du vaisseau, cepandant le moteur à été stocké da
 
 > Quel est le type de fichier ?
 
-_Note : ``man file``._
+_Note : `man file`._
 
-> Chargez l'image virtuellement via la commande ``sudo losetup --partscan --find --show container.img``.
+> Chargez l'image virtuellement via la commande `sudo losetup --partscan --find --show container.img`.
 
 Maintenant, vous pouvez vérifier avec `lsblk` que le disque est détecté. Il est donc temps de faire un point de montage afin d'y accèder.
 
@@ -128,13 +128,13 @@ L'emplacement du système à déja été préparer, c'est l'image vide nommée "
 > Vérifiez le type du fichier.
 
 Il est temps de partitionner ce disque.
-L'objectif est le suivant : Créer deux partitions formatés en ``ext4``, de 15Mb et 10Mb environ. Ensuite, nous pourrons placer nos deux composants réspectivement dans chaqu'une des partitions.
+L'objectif est le suivant : Créer deux partitions formatés en `ext4`, de 15Mb et 10Mb environ. Ensuite, nous pourrons placer nos deux composants réspectivement dans chaqu'une des partitions.
 
-> Utilisez l'utilitaire ``fdisk`` sur l'image, et créez deux partitions primaires comme expliqué ci-dessus.
+> Utilisez l'utilitaire `fdisk` sur l'image, et créez deux partitions primaires comme expliqué ci-dessus.
 
-> Chargez l'image virtuellement via la commande ``sudo losetup --partscan --find --show oxygen_platform.img``.
+> Chargez l'image virtuellement via la commande `sudo losetup --partscan --find --show oxygen_platform.img`.
 
-_Note : Vous pouvez vérifier avec la commande ``lsblk``._
+_Note : Vous pouvez vérifier avec la commande `lsblk`._
 
 > Montez les deux partitions dans deux dossier différents.
 
@@ -142,7 +142,7 @@ _Note : Vous pouvez vérifier avec la commande ``lsblk``._
 
 ## Démarrage du système
 
-> Avec l'utilitaire ``lab``, lancez la machine !
+> Avec l'utilitaire `lab`, lancez la machine !
 
 # 11h41 - Récolte des ressources
 
@@ -151,7 +151,7 @@ Une des raison de votre excurtion est de récolter des ressources inconnues disp
 Dans le dossier "planet", vous trouverez de nombeuses ressources assez banales, mais parmis elles se cache des matières exotiques encore jamais récoltés.
 Vous devez donc les trouver et les récuperer.
 
-Utilisez la commande ``find`` pour les différentes ressources ci-dessous.
+Utilisez la commande `find` pour les différentes ressources ci-dessous.
 Chaque ressource se trouve avec une méthode de recherche différentes.
 
 Liste des matières exotiques à prélever :
@@ -162,7 +162,7 @@ Liste des matières exotiques à prélever :
     - Upprixite : le nom du fichier contient la chaîne de charactère suivante : "shFY". 
     - Xamanite : le nom du fichier contient les charactères u,j,d dans l'ordre respectif. Il est à noter que ce minerais ce trouve uniquement après 5 de profondeurs.
 
-> Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via l'utilitaire ``lab``
+> Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via l'utilitaire `lab`
 
 # 14h26 - Services
 
@@ -171,7 +171,7 @@ Afin de pouvoir accèder à votre machine à travers le réseau, vous allez ouvr
 
 Les services sont appelés des _démons_ sur Linux. De ce fait, la plus part des noms de services finissent par un 'd'.
 
-> Demarrez et activez le service ``sshd``.
+> Demarrez et activez le service `sshd`.
 
 Il est également possible de s'informer sur l'état et les dernières logs d'un service.
 
@@ -194,25 +194,25 @@ _Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez._
 La station spatiale vous informe qu'ils vous ont connecté à internet.
 Vérifiez le bon fonctionnement du réseau.
 
-> Commencez par ping ``google.com``
+> Commencez par ping `google.com`
 
 > Tracez le chemin par lequel passe les requêtes.
 
 > Quel est le serveur DNS en charge de vos résolutions ?
 
-_Note : Renseignez vous sur la commande ``dig``._
+_Note : Renseignez vous sur la commande `dig`._
 
 
 # 18h57 - Automatisation
 
 Il est temps d'optimiser votre temps. Vous avez pour mission de régulièrement surveiller les données des capteurs.
-Le script ``get_sensors_data.sh`` permet de vous afficher ces données traités.
+Le script `get_sensors_data.sh` permet de vous afficher ces données traités.
 
 Le premier objectif est d'afficher ces données à l'ouverture d'un terminal.
 
-> Automatisez son execution via le fichier ``.bashrc``
+> Automatisez son execution via le fichier `.bashrc`
 
-_Note : Le fichier ``.bashrc`` s'execute à chaque ouverture de terminal._
+_Note : Le fichier `.bashrc` s'execute à chaque ouverture de terminal._
 
 ---
 
