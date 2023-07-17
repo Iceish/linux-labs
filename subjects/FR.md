@@ -1,7 +1,7 @@
 ﻿[< Revenir à la présentation.](/README.md)
 # Linux Lab 2 - Français 🇫🇷 
 
-<img align="right" alt="Spaceship" src="/assets/end.png" width="280px"/>
+<img align="right" alt="Spaceship" src="/assets/spaceship_landed.png" width="280px"/>
 
 <br/>
 <br/>
@@ -18,6 +18,8 @@ Vous êtes l'ingénieur à la tête du nouveau spaceship en mission pour conquer
 Il est 05h26, vous venez tout juste d'atterir sur l'exo-planete LNX-4EVER. Vous observez avec émerveillement le paysage qui s'étend devant vous. Une étendue de terre rocailleuse et aride, baignée par la lumière pâle de l'aube naissante. Les montagnes se dressent majestueusement à l'horizon, leurs sommets émergeant d'une brume matinale légère. Des touffes d'herbe brune s'agitent doucement dans le vent frais du matin, et de petits animaux étranges courent furtivement entre les rochers. Vous savez que vous avez beaucoup de travail à faire pour préparer la mission à venir, mais pour l'instant, vous vous contentez de contempler ce paysage aussi étrange que magnifique qui s'offre à vous. 
 
 # 06h12 - Vérifications et contrôls
+
+<img align="left" alt="Spaceship control" src="/assets/control.png" width="280px"/>
 
 Il est temps de reprendre vos esprits et de commencer le travail ! Pendant que l'équipage s'équipe pour l'exploration, vous vérifiez que l'atterissage s'est correctement déroulé.
 Vous allez devoir créer plusieurs fichiers de verification à envoyer au centre de control.
@@ -47,6 +49,8 @@ _Note : il exite une commande pour compter sur linux, à vous faire des recherch
 Avant d'envoyer ces rapports au centre de contrôle terrestre, vérifiez la conformité des données avec la l'utilitaire `lab`.
 
 # 06h53 - Installation des équipements de communication & connexion vers le centre de contrôle
+
+<img align="right" alt="Spaceship rack" src="/assets/connection.png" width="280px"/>
 
 Après que votre équipage ai déployé l'antenne, votre mission est de configurer la machine.
 
@@ -78,6 +82,8 @@ _Note : Utilisez l'agument -h ou --help pour afficher la syntaxe du script._
 
 # 07h49 - Il y a du monde par ici
 
+<img align="left" alt="Zombies attack" src="/assets/attack.png" width="280px"/>
+
 Alors que vous venez tout juste de finir l'envoie des rapports, vous appercevez Victor un membre de l'équipe courir soudainement vers vous en faisant de grands mouvements et un visage pouvant traduire la terreur.
 
 Vous comprenez enfin lorsque à l'horizon, d'impressionantes silouhaites se dressent parmis les rayons du soleil. Vous vous faites attaquer par une forme de vie inconnue !
@@ -102,6 +108,8 @@ Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
 > Lancez le drone pour vérifier les horizons avec l'utilitaire `lab`.
 
 # 9h10 - Installation du système d'oxygène
+
+<img align="right" alt="Oxygen generator" src="assets/" width="280px"/>
 
 Vos réserves d'oxygène vous permettent de tenir 72h, il est donc temps de mettre en place le système de syntétisation d'oxygène.
 
@@ -149,6 +157,8 @@ _Note : Vous pouvez vérifier avec la commande `lsblk`._
 
 # 11h41 - Récolte des ressources
 
+<img align="left" alt="Exo-planet landscape" src="assets/ressources.png" width="280px"/>
+
 Une des raison de votre excurtion est de récolter des ressources inconnues disponnible sur cette planète.
 
 Dans le dossier "planet", vous trouverez de nombeuses ressources assez banales, mais parmis elles se cache des matières exotiques encore jamais récoltés.
@@ -168,6 +178,8 @@ Liste des matières exotiques à prélever :
 > Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via l'utilitaire `lab`
 
 # 14h26 - Services
+
+<img align="right" alt="Futuristic computer" src="assets/services.png" width="280px"/>
 
 Lorsque vous utilisez Linux, de nombeux services fonctionnent en tâche de fond afin de vous simplifier la vie.
 Afin de pouvoir accèder à votre machine à travers le réseau, vous allez ouvrir l'accès en SSH.
@@ -194,6 +206,8 @@ _Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez._
 
 # 16h03 - Interferences
 
+<img align="left" alt="Antenna" src="assets/interferences.png" width="280px"/>
+
 La station spatiale vous informe qu'ils vous ont connecté à internet.
 Vérifiez le bon fonctionnement du réseau.
 
@@ -207,6 +221,8 @@ _Note : Renseignez vous sur la commande `dig`._
 
 
 # 18h57 - Automatisation
+
+<img align="right" alt="Robot" src="assets/automation.png" width="280px"/>
 
 Il est temps d'optimiser votre temps. Vous avez pour mission de régulièrement surveiller les données des capteurs.
 Le script `get_sensors_data.sh` permet de vous afficher ces données traités.
