@@ -109,7 +109,7 @@ Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
 
 # 9h10 - Installation du système d'oxygène
 
-<img align="right" alt="Oxygen generator" src="assets/" width="280px"/>
+<img align="right" alt="Oxygen generator" src="/assets/oxygen.png" width="280px"/>
 
 Vos réserves d'oxygène vous permettent de tenir 72h, il est donc temps de mettre en place le système de syntétisation d'oxygène.
 
@@ -157,7 +157,7 @@ _Note : Vous pouvez vérifier avec la commande `lsblk`._
 
 # 11h41 - Récolte des ressources
 
-<img align="left" alt="Exo-planet landscape" src="assets/ressources.png" width="280px"/>
+<img align="left" alt="Exo-planet landscape" src="/assets/ressources.png" width="280px"/>
 
 Une des raison de votre excurtion est de récolter des ressources inconnues disponnible sur cette planète.
 
@@ -179,7 +179,7 @@ Liste des matières exotiques à prélever :
 
 # 14h26 - Services
 
-<img align="right" alt="Futuristic computer" src="assets/services.png" width="280px"/>
+<img align="right" alt="Futuristic computer" src="/assets/services.png" width="280px"/>
 
 Lorsque vous utilisez Linux, de nombeux services fonctionnent en tâche de fond afin de vous simplifier la vie.
 Afin de pouvoir accèder à votre machine à travers le réseau, vous allez ouvrir l'accès en SSH.
@@ -206,7 +206,7 @@ _Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez._
 
 # 16h03 - Interferences
 
-<img align="left" alt="Antenna" src="assets/interferences.png" width="280px"/>
+<img align="left" alt="Antenna" src="/assets/interferences.png" width="280px"/>
 
 La station spatiale vous informe qu'ils vous ont connecté à internet.
 Vérifiez le bon fonctionnement du réseau.
@@ -222,7 +222,7 @@ _Note : Renseignez vous sur la commande `dig`._
 
 # 18h57 - Automatisation
 
-<img align="right" alt="Robot" src="assets/automation.png" width="280px"/>
+<img align="right" alt="Robot" src="/assets/automation.png" width="280px"/>
 
 Il est temps d'optimiser votre temps. Vous avez pour mission de régulièrement surveiller les données des capteurs.
 Le script `get_sensors_data.sh` permet de vous afficher ces données traités.
