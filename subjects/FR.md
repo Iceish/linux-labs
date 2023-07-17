@@ -20,6 +20,7 @@ Il est 05h26, vous venez tout juste d'atterir sur l'exo-planete LNX-4EVER. Vous 
 # 06h12 - Vérifications et contrôls
 
 <img align="left" alt="Spaceship control" src="/assets/control.png" width="280px"/>
+<img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 Il est temps de reprendre vos esprits et de commencer le travail ! Pendant que l'équipage s'équipe pour l'exploration, vous vérifiez que l'atterissage s'est correctement déroulé.
 Vous allez devoir créer plusieurs fichiers de verification à envoyer au centre de control.
@@ -51,6 +52,7 @@ Avant d'envoyer ces rapports au centre de contrôle terrestre, vérifiez la conf
 # 06h53 - Installation des équipements de communication & connexion vers le centre de contrôle
 
 <img align="right" alt="Spaceship rack" src="/assets/connection.png" width="280px"/>
+<img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 Après que votre équipage ai déployé l'antenne, votre mission est de configurer la machine.
 
@@ -83,6 +85,7 @@ _Note : Utilisez l'agument -h ou --help pour afficher la syntaxe du script._
 # 07h49 - Il y a du monde par ici
 
 <img align="left" alt="Zombies attack" src="/assets/attack.png" width="280px"/>
+<img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 Alors que vous venez tout juste de finir l'envoie des rapports, vous appercevez Victor un membre de l'équipe courir soudainement vers vous en faisant de grands mouvements et un visage pouvant traduire la terreur.
 
@@ -110,6 +113,7 @@ Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
 # 9h10 - Installation du système d'oxygène
 
 <img align="right" alt="Oxygen generator" src="/assets/oxygen.png" width="280px"/>
+<img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 Vos réserves d'oxygène vous permettent de tenir 72h, il est donc temps de mettre en place le système de syntétisation d'oxygène.
 
@@ -158,6 +162,7 @@ _Note : Vous pouvez vérifier avec la commande `lsblk`._
 # 11h41 - Récolte des ressources
 
 <img align="left" alt="Exo-planet landscape" src="/assets/ressources.png" width="280px"/>
+<img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 Une des raison de votre excurtion est de récolter des ressources inconnues disponnible sur cette planète.
 
@@ -180,6 +185,7 @@ Liste des matières exotiques à prélever :
 # 14h26 - Services
 
 <img align="right" alt="Futuristic computer" src="/assets/services.png" width="280px"/>
+<img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 Lorsque vous utilisez Linux, de nombeux services fonctionnent en tâche de fond afin de vous simplifier la vie.
 Afin de pouvoir accèder à votre machine à travers le réseau, vous allez ouvrir l'accès en SSH.
@@ -207,6 +213,7 @@ _Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez._
 # 16h03 - Interferences
 
 <img align="left" alt="Antenna" src="/assets/interferences.png" width="280px"/>
+<img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 La station spatiale vous informe qu'ils vous ont connecté à internet.
 Vérifiez le bon fonctionnement du réseau.
@@ -223,6 +230,7 @@ _Note : Renseignez vous sur la commande `dig`._
 # 18h57 - Automatisation
 
 <img align="right" alt="Robot" src="/assets/automation.png" width="280px"/>
+<img align="right" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
 Il est temps d'optimiser votre temps. Vous avez pour mission de régulièrement surveiller les données des capteurs.
 Le script `get_sensors_data.sh` permet de vous afficher ces données traités.
