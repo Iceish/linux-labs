@@ -10,10 +10,7 @@
 <div align="center">
 Vous êtes l'ingénieur à la tête du nouveau spaceship en mission pour conquerir une exo-planète. 
 </div>
-<br/>
-<br/>
-<br/>
-<br/>
+<br clear="right"/>
 
 Il est 05h26, vous venez tout juste d'atterir sur l'exo-planete LNX-4EVER. Vous observez avec émerveillement le paysage qui s'étend devant vous. Une étendue de terre rocailleuse et aride, baignée par la lumière pâle de l'aube naissante. Les montagnes se dressent majestueusement à l'horizon, leurs sommets émergeant d'une brume matinale légère. Des touffes d'herbe brune s'agitent doucement dans le vent frais du matin, et de petits animaux étranges courent furtivement entre les rochers. Vous savez que vous avez beaucoup de travail à faire pour préparer la mission à venir, mais pour l'instant, vous vous contentez de contempler ce paysage aussi étrange que magnifique qui s'offre à vous. 
 
@@ -22,6 +19,10 @@ Il est 05h26, vous venez tout juste d'atterir sur l'exo-planete LNX-4EVER. Vous 
 <img align="left" alt="Spaceship control" src="/assets/control.png" width="280px"/>
 <img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
+<br/>
+<br/>
+<br/>
+<br/>
 Il est temps de reprendre vos esprits et de commencer le travail ! Pendant que l'équipage s'équipe pour l'exploration, vous vérifiez que l'atterissage s'est correctement déroulé.
 Vous allez devoir créer plusieurs fichiers de verification à envoyer au centre de control.
 
