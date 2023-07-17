@@ -22,9 +22,10 @@ Il est 05h26, vous venez tout juste d'atterir sur l'exo-planete LNX-4EVER. Vous 
 <img align="left" alt="Spaceship control" src="/assets/control.png" width="280px"/>
 <img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
 
+<div style="height: 280px;">
 Il est temps de reprendre vos esprits et de commencer le travail ! Pendant que l'équipage s'équipe pour l'exploration, vous vérifiez que l'atterissage s'est correctement déroulé.
 Vous allez devoir créer plusieurs fichiers de verification à envoyer au centre de control.
-
+</div>
 Le centre de contrôle demande un rendu des évenements importants qui se sont produits pendant l'atterisage.
 Les prérequis sont les suivants :
 - Seul les champs d'état et le message sont à renseigner. (la date ne doit pas figurer)
