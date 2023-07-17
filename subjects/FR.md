@@ -111,7 +111,7 @@ Le filtre se trouve à bord du vaisseau, cepandant le moteur à été stocké da
 
 Note : ``man file``.
 
-> Chargez l'image virtuellement via la commande `lab load_disk_image`. Renseignez vous sur son fonctionnement avec `lab help`.
+> Chargez l'image virtuellement via la commande ``sudo losetup --partscan --find --show container.img``.
 
 Maintenant, vous pouvez vérifier avec `lsblk` que le disque est détecté. Il est donc temps de faire un point de montage afin d'y accèder.
 
@@ -132,7 +132,7 @@ L'objectif est le suivant : Créer deux partitions formatés en ``ext4``, de 15M
 
 > Utilisez l'utilitaire ``fdisk`` sur l'image, et créez deux partitions primaires comme expliqué ci-dessus.
 
-> Chargez l'image virtuellement via la commande `lab load_disk_image`.
+> Chargez l'image virtuellement via la commande ``sudo losetup --partscan --find --show oxygen_platform.img``.
 
 Note : Vous pouvez vérifier avec la commande ``lsblk``.
 
