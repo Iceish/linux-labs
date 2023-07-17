@@ -93,6 +93,25 @@ case "$cmd" in
 		fi
 	;;
 
+	"check_ressources")
+		diff "./laskite" $LAB_BACKEND/ressources/laskite.anwser 
+		laskite=$?
+		diff "./irinite" $LAB_BACKEND/ressources/irinite.anwser
+		irinite=$?
+		diff "./nexarium" $LAB_BACKEND/ressources/nexarium.anwser
+		nexarium=$?
+		diff "./upprixite" $LAB_BACKEND/ressources/upprixite.anwser
+		upprixite=$?
+		diff "./xamanite" $LAB_BACKEND/ressources/xamanite.anwser
+		xamanite=$?
+		result=$(($laskite + $irinite + $nexarium + $upprixite + $xamanite))
+		if [ "$result" -eq "0" ]; then
+			echo "succed";
+		else
+			echo "failed";
+		fi
+	;;
+
 	"help")
 		echo "Lab command"
 		echo ""
