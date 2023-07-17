@@ -71,7 +71,7 @@ La configuration DHCP par défaut se trouve dans _/etc/network/interfaces_.
 
 Une fois la connexion établie, vous pouvez envoyer vos rapports générés précédements. Verifiez la connexion avec l'utilitaire ``lab``.
 
-Note : Utilisez l'agument _-h_ ou _--help_ pour afficher la syntaxe du script.
+_Note : Utilisez l'agument -h ou --help pour afficher la syntaxe du script._
 
 # 07h49 - Il y a du monde par ici
 
@@ -90,7 +90,7 @@ Les explorateurs nous ont raportés des informations supplémentaires sur cette 
 
 > Occupez-vous de ces processus zombies, il faut les éliminer.
 
-Note : Commencez par un repérage. (ps)
+_Note : Commencez par un repérage. (ps)_
     
 ```" Qui connaît son ennemi comme il se connaît, en cent combats ne sera point défait. "```
 
@@ -109,7 +109,7 @@ Le filtre se trouve à bord du vaisseau, cepandant le moteur à été stocké da
 
 > Quel est le type de fichier ?
 
-Note : ``man file``.
+_Note : ``man file``._
 
 > Chargez l'image virtuellement via la commande ``sudo losetup --partscan --find --show container.img``.
 
@@ -117,7 +117,7 @@ Maintenant, vous pouvez vérifier avec `lsblk` que le disque est détecté. Il e
 
 > Montez le disque sur _/mnt/container_.
 
-Note : Vous allez devoir créer un dossier.
+_Note : Vous allez devoir créer un dossier._
 
 > Déplacez le moteur dans le vaisseau pour préparer l'étape suivante.
 
@@ -134,7 +134,7 @@ L'objectif est le suivant : Créer deux partitions formatés en ``ext4``, de 15M
 
 > Chargez l'image virtuellement via la commande ``sudo losetup --partscan --find --show oxygen_platform.img``.
 
-Note : Vous pouvez vérifier avec la commande ``lsblk``.
+_Note : Vous pouvez vérifier avec la commande ``lsblk``._
 
 > Montez les deux partitions dans deux dossier différents.
 
@@ -179,7 +179,7 @@ Il est également possible de s'informer sur l'état et les dernières logs d'un
 
 Lorsque vous modifiez la configuration d'un service, il faut généralement le rédémarrer.
 
-Note : C'est par exemple ce que vous avez fait lorsque vous avez définit votre ip en statique.
+_Note : C'est par exemple ce que vous avez fait lorsque vous avez définit votre ip en statique._
 
 > Modifiez le port du service, et redemarrez le pour constater le changement.
 
@@ -187,7 +187,7 @@ Il ne reste plus qu'à tester !
 
 > Connectez vous en SSH sur le port configuré.
 
-Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez.
+_Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez._
 
 # 16h03 - Interferences
 
@@ -200,7 +200,7 @@ Vérifiez le bon fonctionnement du réseau.
 
 > Quel est le serveur DNS en charge de vos résolutions ?
 
-Note : Renseignez vous sur la commande ``dig``
+_Note : Renseignez vous sur la commande ``dig``._
 
 
 # 18h57 - Automatisation
@@ -212,7 +212,7 @@ Le premier objectif est d'afficher ces données à l'ouverture d'un terminal.
 
 > Automatisez son execution via le fichier ``.bashrc``
 
-Note : Le fichier ``.bashrc`` s'execute à chaque ouverture de terminal.
+_Note : Le fichier ``.bashrc`` s'execute à chaque ouverture de terminal._
 
 ---
 
