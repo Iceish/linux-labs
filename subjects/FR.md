@@ -81,7 +81,7 @@ Pour cela, il faut éditer deux fichier :
 - /etc/hostname
     - Il définit le nom de la machine.
 - /etc/hosts
-    - Il contient une enrée pour résoudre en local avec le hostname en dur.
+    - Il contient une entrée pour résoudre en local avec le hostname en dur.
 
 > Rennomez votre machine en "lnx-explorer".
 
