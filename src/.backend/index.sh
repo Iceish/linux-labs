@@ -49,6 +49,18 @@ verify_requirements() {
 	fi
 }
 
+display_fake_event() {
+  local messages=("$@")
+  local total=${#messages[@]}
+  local counter=1
+
+  for message in "${messages[@]}"; do
+    echo -e "[${MAGENTA}$counter${RESET}/${MAGENTA}$total${RESET}] $message.."
+    sleep 1
+    ((counter++))
+  done
+}
+
 echo -en "$BOLD"
 echo "===================="
 echo "=   LNX-LAB TOOL   ="
@@ -63,8 +75,7 @@ case "$cmd" in
 		diff "$2" "$LAB_BACKEND/control/event_landing_report.anwser" &> /dev/null
 		RESULT=$?
 
-		echo "Analysing report.."
-		sleep 1
+		display_fake_event "Analysing report.." "Sending a copy"
 	;;
 
 	"verify_count_report")
@@ -72,8 +83,7 @@ case "$cmd" in
 		diff "$2" "$LAB_BACKEND/control/count_landing_report.anwser" &> /dev/null
 		RESULT=$?
 		
-		echo "Analysing report.."
-		sleep 1
+		display_fake_event "Analysing report.." "Sending a copy"
 	;;
 
 	"verify_hostname")
@@ -85,8 +95,7 @@ case "$cmd" in
 		
 		rm -f "$LAB_BACKEND/connection/hosts.tmp"
 		
-		echo "Checking hostname.."
-		sleep 1
+		display_fake_event "Checking hostname"
 	;;
 
 	"verify_network")
@@ -95,11 +104,7 @@ case "$cmd" in
 		&& ping -c 1 google.com &> /dev/null
 		RESULT=$?
 		
-		for i in "Connecting to nodes[1/3]" "Etablishing routing[2/3]" "TCP Handshake[3/3]"
-		do
-			echo "$i.."
-			sleep 1
-		done
+		display_fake_event "Connecting to nodes" "Etablishing routing" "TCP Handshake"
 	;;
 
 	"start_attack")
@@ -131,11 +136,7 @@ case "$cmd" in
 		&& lsblk | grep -q 'loop'
 		RESULT=$?
 		
-		for i in "Compressing gas[1/3]" "Loading Oxygen[2/3]" "Starting rotors[3/3]"
-		do
-			echo "$i.."
-			sleep 1
-		done
+		display_fake_event "Compressing gas" "Loading Oxygen" "Starting rotors"
 	;;
 	
 	"verify_ressources_collected")
@@ -147,11 +148,7 @@ case "$cmd" in
 		&& diff "$6" $LAB_BACKEND/ressources/xamanite.anwser &>/dev/null
 		RESULT=$?
 		
-		for i in "Analysing samples[1/2]" "Evaluating purity[2/2]"
-		do
-			echo "$i.."
-			sleep 1
-		done
+		display_fake_event "Analysing samples" "Evaluating purity"
 	;;
 
 	"help"|"-h")
