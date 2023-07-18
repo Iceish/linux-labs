@@ -41,7 +41,6 @@ The content can be found under the _src_ folder.
  - Traitement :
      - `cut`
      - `sort`
-     - `tr`
      - `uniq`
  - Gestion du system :
      - `.bashrc`
