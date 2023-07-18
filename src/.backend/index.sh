@@ -55,8 +55,6 @@ echo "=   LNX-LAB TOOL   ="
 echo "===================="
 echo -e "$RESET"
 
-verify_requirements 1
-
 cmd="$1"
 case "$cmd" in
 
