@@ -1,137 +1,169 @@
 #/bin/bash
 
+# Made by @EnzoGzz on Github.
+
+BOLD="\e[1m"
+RED="\e[31m"
+GREEN="\e[32m"
+YELLOW="\e[33m"
+CYAN="\e[36m"
+MAGENTA="\e[95m"
+DIM="\e[2m"
+RESET="\e[0m"
+ASCII_SHP="⬢"
+
+RESULT=1
+ARGC=$#
+
+# Function to wrap echo with status and color
+echo_status() {
+  local status=$1
+  local message=$2
+  local color
+
+  case $status in
+    "success")
+      color=$GREEN
+      ;;
+    "warn")
+      color=$YELLOW
+      ;;
+    "error")
+      color=$RED
+      ;;
+    *)
+      color=$RESET
+      ;;
+  esac
+
+  echo -e "${color}${BOLD}$ASCII_SHP $message${RESET}"
+}
+
+
+verify_requirements() {
+	local count=$1
+	if [ "$ARGC" -ne $count ]; then
+		echo_status "error" "This command require \`$count\` argument."
+		echo -e "${DIM}- Type \`lab help\` for more informations.${RESET}"
+		exit 1
+	fi
+}
+
+echo -en "$BOLD"
+echo "===================="
+echo "=   LNX-LAB TOOL   ="
+echo "===================="
+echo -e "$RESET"
+
+verify_requirements 1
+
 cmd="$1"
 case "$cmd" in
 
-	"check_event" )
-		diff "event_landing_report.txt" "$LAB_BACKEND/control/event_landing_report.anwser" &> /dev/null
-		if [ "$?" -eq "0" ]; then
-			echo "succed";
-		else
-			echo "failed";
-		fi
+	"verify_event_report" )
+		verify_requirements 2
+		diff "$2" "$LAB_BACKEND/control/event_landing_report.anwser" &> /dev/null
+		RESULT=$?
 	;;
 
-	"check_count")
-		diff "count_landing_report.txt" "$LAB_BACKEND/control/count_landing_report.anwser" &> /dev/null
-		if [ "$?" -eq "0" ]; then
-			echo "succed";
-		else
-			echo "failed";
-		fi
+	"verify_count_report")
+		verify_requirements 2
+		diff "$2" "$LAB_BACKEND/control/count_landing_report.anwser" &> /dev/null
+		RESULT=$?
 	;;
 
-	"check_hostname")
-		diff "/etc/hostname" "$LAB_BACKEND/connection/hostname.anwser" &> /dev/null
-		one=$?
-		echo "$(cat /etc/hosts | grep 127.0.1.1 | tr -s ' ' | cut -d ' ' -f 2)" &> $LAB_BACKEND/hosts.tmp
-		diff "$LAB_BACKEND/connection/hosts.tmp" "$LAB_BACKEND/connection/hostname.anwser" &> /dev/null
-		two=$?
-		result=$(($one + $two))
-		echo $result
-		if  [ "$result" -eq "0" ]; then
-			echo "succed";
-		else
-			echo "failed";
-		fi
-
+	"verify_hostname")
+		verify_requirements 1
+		diff "/etc/hostname" "$LAB_BACKEND/connection/hostname.anwser" &> /dev/null \
+		&& echo "$(cat /etc/hosts | grep 127.0.1.1 | tr -s ' ' | cut -d ' ' -f 2)" &> $LAB_BACKEND/hosts.tmp \
+		&& diff "$LAB_BACKEND/connection/hosts.tmp" "$LAB_BACKEND/connection/hostname.anwser" &> /dev/null
+		RESULT=$?
+		
 		rm -f "$LAB_BACKEND/connection/hosts.tmp"
 	;;
 
-	"check_network")
-		cat /etc/network/interfaces 2> /dev/null | grep "inet static" &> /dev/null
-		one=$?
-		ping -c 1 google.fr &> /dev/null
-		two=$?
-		result=$(($one + $two)) 
-		if [ "$result" -eq "0" ]; then
-			echo "succed";	
-		else
-			echo "failed";
-		fi
+	"verify_network")
+		verify_requirements 1
+		cat /etc/network/interfaces 2> /dev/null | grep "inet static" &> /dev/null \
+		&& ping -c 1 google.com &> /dev/null
+		RESULT=$?
 	;;
 
-	"start_attack")
+	"verify_attack")
+		verify_requirements 1
 		gcc -s $LAB_BACKEND/attack/cz.c -o $LAB_BACKEND/attack/cz
 		chmod +x $LAB_BACKEND/attack/cz
 		$LAB_BACKEND/attack/cz 25 & &> /dev/null
 		rm -f $LAB_BACKEND/attack/cz &> /dev/null
 		echo "You see a horde of zombies attacking you. Defend yourself !"
+		exit 0
 	;;
 
-	"launch_drones")
+	"verify_drones")
+		verify_requirements 1
 		echo "Drones are scanning surroundings."
 		for i in "Valley[1/3]" "Mountains[2/3]" "Fields[3/3]"
 		do
 			echo "Scanning $i.."
 			sleep 1
 		done
-		if [ "$(ps aux | grep Enemy | wc -l)" == "1" ]; then
-			echo "succed";
-		else
-			echo "failed";
-		fi	
+		RESULT=$(($(ps aux | grep Enemy | wc -l)-1))
 	;;
 
-	"check_oxygen_system")
-		if [ $# -ne 3 ]; then
-			echo "This command require two arguments. \nType 'lab help' for more informations"
-			exit 1
-		fi
-
+	"verify_oxygen_system")
+		verify_requirements 3
 		echo "Oxygen engine witch [ON]."
-		diff "$2/oxygen_engine" $LAB_BACKEND/oxygen/oxygen_engine.anwser 
-		one=$?
-		diff "$3/oxygen_filter" $LAB_BACKEND/oxygen/oxygen_filter.anwser
-		two=$?
-		lsblk | grep -q 'loop' && three=0 || three=1
-		result=$(($one + $two + $three))
-		if [ "$result" -eq "0" ];then
-			echo "succed";
-		else
-			echo "failed";
-		fi
+		diff "$2" "$LAB_BACKEND/oxygen/oxygen_engine.anwser" \
+		&& diff "$3" "$LAB_BACKEND/oxygen/oxygen_filter.anwser" \
+		&& lsblk | grep -q 'loop'
+		RESULT=$?
 	;;
 
-	"check_ressources")
-		diff "./laskite" $LAB_BACKEND/ressources/laskite.anwser 
-		laskite=$?
-		diff "./irinite" $LAB_BACKEND/ressources/irinite.anwser
-		irinite=$?
-		diff "./nexarium" $LAB_BACKEND/ressources/nexarium.anwser
-		nexarium=$?
-		diff "./upprixite" $LAB_BACKEND/ressources/upprixite.anwser
-		upprixite=$?
-		diff "./xamanite" $LAB_BACKEND/ressources/xamanite.anwser
-		xamanite=$?
-		result=$(($laskite + $irinite + $nexarium + $upprixite + $xamanite))
-		if [ "$result" -eq "0" ]; then
-			echo "succed";
-		else
-			echo "failed";
-		fi
+	"verify_ressources")
+		verify_requirements 6
+		diff "$2" $LAB_BACKEND/ressources/laskite.anwser \
+		&& diff "$3" $LAB_BACKEND/ressources/irinite.anwser \
+		&& diff "$4" $LAB_BACKEND/ressources/nexarium.anwser \
+		&& diff "$5" $LAB_BACKEND/ressources/upprixite.anwser \
+		&& diff "$6" $LAB_BACKEND/ressources/xamanite.anwser
+		RESULT=$?
 	;;
 
-	"help")
-		echo "Lab command"
+	"help"|"-h")
+		verify_requirements 1
+		echo -e "${DIM}Lab command helper${RESET}"
 		echo ""
-		echo "DESCRIPTION"
-		echo "This tool help to validate linux lab tasks."
+		echo -e "${BOLD}DESCRIPTION${RESET}"
+		echo "This tool helps you through linux lab validation tasks."
 		echo ""
-		echo "SYNTAX"
+		echo -e "${BOLD}SYNTAX${RESET}"
 		echo "lab <cmd>"
 		echo ""
-		echo "OPTIONS"
-		echo "- help : Display this help page."
-		echo "- check_event : Check if landing event report is correct."
-		echo "- check_count : Check if landing count report is correct."
-		echo "- check_oxygen <oxygen_engine root path> <oxygen_filter root path> : Check if oxygen system is correctly working."
-		
+		echo -e "${BOLD}OPTIONS${RESET}"
+		echo -e "•${CYAN} help ${RESET}: ${DIM}Display this help page.${RESET}"
+		echo -e "•${CYAN} verify_event_report ${RESET}<${MAGENTA}event_report file path${RESET}> : ${DIM}Verify that event report is correct.${RESET}"
+		echo -e "•${CYAN} verify_count_report ${RESET}<${MAGENTA}count_report file path${RESET}> : ${DIM}Verify that count report is correct.${RESET}"
+		echo -e "•${CYAN} verify_hostname ${RESET}: ${DIM}Verify that hostname is correctly configured.${RESET}"
+		echo -e "•${CYAN} verify_network ${RESET}: ${DIM}Verify that network is working.${RESET}"
+		echo -e "•${CYAN} verify_war_victory ${RESET}: ${DIM}Verify that all enemies are defeated.${RESET}"
+		echo -e "•${CYAN} verify_oxygen_generator ${RESET}<${MAGENTA}oxygen_engine file path${RESET}> <${MAGENTA}oxygen_filter file path${RESET}> : ${DIM}Verify that oxygen system is correctly working.${RESET}"
+		echo -e "•${CYAN} verify_ressources_collected ${RESET}<${MAGENTA}laskite file path${RESET}> <${MAGENTA}irinite file path${RESET}> <${MAGENTA}nexarium file path${RESET}> <${MAGENTA}upprixite file path${RESET}> <${MAGENTA}xamanite file path${RESET}> : ${DIM}Verify that all ressources are collected.${RESET}"
+		echo -e "•${CYAN} start_attack ${RESET}: ${DIM}Launch the enemy attack.${RESET}"
+		exit 0		
 	;;
 
 	*)
 		echo "'$cmd' option does not exists."
 		echo "Type 'lab help' to get further informations."
+		exit 1
 		;;
 esac
+
+
+if [ "$RESULT" -eq "0" ]; then
+	echo_status "success" "You successfully validated this step."
+else
+	echo_status "error" "You failed this step. Try again."
+fi
+
 
