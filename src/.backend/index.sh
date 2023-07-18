@@ -140,11 +140,11 @@ case "$cmd" in
 	
 	"verify_ressources_collected")
 		verify_requirements 6
-		diff "$2" $LAB_BACKEND/ressources/laskite.anwser \
-		&& diff "$3" $LAB_BACKEND/ressources/irinite.anwser \
-		&& diff "$4" $LAB_BACKEND/ressources/nexarium.anwser \
-		&& diff "$5" $LAB_BACKEND/ressources/upprixite.anwser \
-		&& diff "$6" $LAB_BACKEND/ressources/xamanite.anwser
+		diff "$2" $LAB_BACKEND/ressources/laskite.anwser &>/dev/null \
+		&& diff "$3" $LAB_BACKEND/ressources/irinite.anwser &>/dev/null \
+		&& diff "$4" $LAB_BACKEND/ressources/nexarium.anwser &>/dev/null \
+		&& diff "$5" $LAB_BACKEND/ressources/upprixite.anwser &>/dev/null \
+		&& diff "$6" $LAB_BACKEND/ressources/xamanite.anwser &>/dev/null
 		RESULT=$?
 		
 		for i in "Analysing samples[1/2]" "Evaluating purity[2/2]"
