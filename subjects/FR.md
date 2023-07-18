@@ -97,7 +97,7 @@ La configuration DHCP par défaut se trouve dans _/etc/network/interfaces_.
 
 Une fois la connexion établie, vous pouvez envoyer vos rapports générés précédements. Verifiez la connexion avec l'utilitaire `lab`.
 
-_Note : Utilisez l'agument -h ou --help pour afficher la syntaxe du script._
+_Note : Utilisez l'argument -h ou help pour afficher la syntaxe du script._
 
 # 07h49 - Il y a du monde par ici
 
