@@ -32,6 +32,35 @@ The content can be found under the _src_ folder.
  - DO NOT use root account, unless explicitly said on subject.
  - Publish a walkthrough is allowed.
 
+### 🔎 Skills you will practice
+
+ - Redirections de flux simples.
+ - Recherches :
+     - `find`
+     - `grep`
+ - Traitement :
+     - `cut`
+     - `sort`
+     - `tr`
+     - `uniq`
+ - Gestion du system :
+     - `.bashrc`
+ - Changer le hostname.
+ - Gestion du réseau :
+     - Changer d'IPv4. (statique)
+     - `ping`
+     - `traceroute`
+     - `dig`
+ - Gestion des processus :
+     - `ps`
+     - `kill`
+ - Gestion des disques :
+     - `fdisk`
+     - `mount`, `umount`
+     - `lsblk`
+ - Gestion des services :
+     - `systemctl`
+
 ---
 
 [> Go to the next lab. _(Comming soon)_](https://github.com/EnzoGzz/linux-labs/tree/lab2-intermediate)
