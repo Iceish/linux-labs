@@ -97,7 +97,7 @@ case "$cmd" in
 		exit 0
 	;;
 
-	"verify_attack")
+	"verify_war_victory")
 		verify_requirements 1
 		echo "Drones are scanning surroundings."
 		for i in "Valley[1/3]" "Mountains[2/3]" "Fields[3/3]"
@@ -116,8 +116,8 @@ case "$cmd" in
 		&& lsblk | grep -q 'loop'
 		RESULT=$?
 	;;
-
-	"verify_ressources")
+	
+	"verify_ressources_collected")
 		verify_requirements 6
 		diff "$2" $LAB_BACKEND/ressources/laskite.anwser \
 		&& diff "$3" $LAB_BACKEND/ressources/irinite.anwser \
