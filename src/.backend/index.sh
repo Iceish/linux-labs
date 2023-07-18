@@ -62,12 +62,18 @@ case "$cmd" in
 		verify_requirements 2
 		diff "$2" "$LAB_BACKEND/control/event_landing_report.anwser" &> /dev/null
 		RESULT=$?
+
+		echo "Analysing report.."
+		sleep 1
 	;;
 
 	"verify_count_report")
 		verify_requirements 2
 		diff "$2" "$LAB_BACKEND/control/count_landing_report.anwser" &> /dev/null
 		RESULT=$?
+		
+		echo "Analysing report.."
+		sleep 1
 	;;
 
 	"verify_hostname")
@@ -78,6 +84,9 @@ case "$cmd" in
 		RESULT=$?
 		
 		rm -f "$LAB_BACKEND/connection/hosts.tmp"
+		
+		echo "Checking hostname.."
+		sleep 1
 	;;
 
 	"verify_network")
@@ -85,6 +94,12 @@ case "$cmd" in
 		cat /etc/network/interfaces 2> /dev/null | grep "inet static" &> /dev/null \
 		&& ping -c 1 google.com &> /dev/null
 		RESULT=$?
+		
+		for i in "Connecting to nodes[1/3]" "Etablishing routing[2/3]" "TCP Handshake[3/3]"
+		do
+			echo "$i.."
+			sleep 1
+		done
 	;;
 
 	"start_attack")
@@ -93,7 +108,7 @@ case "$cmd" in
 		chmod +x "$LAB_BACKEND/attack/cz"
 		"$LAB_BACKEND/attack/cz" 25 & &> /dev/null
 		rm -f "$LAB_BACKEND/attack/cz" &> /dev/null
-		echo "You see a horde of zombies attacking you. Defend yourself !"
+		echo "🧟 Amidst the chaos, a horde of zombies advances, but you stand firm, ready to defend yourself."
 		exit 0
 	;;
 
@@ -108,13 +123,19 @@ case "$cmd" in
 		RESULT=$(($(ps aux | grep Enemy | wc -l)-1))
 	;;
 
-	"verify_oxygen_system")
+	"verify_oxygen_generator")
 		verify_requirements 3
 		echo "Oxygen engine witch [ON]."
 		diff "$2" "$LAB_BACKEND/oxygen/oxygen_engine.anwser" \
 		&& diff "$3" "$LAB_BACKEND/oxygen/oxygen_filter.anwser" \
 		&& lsblk | grep -q 'loop'
 		RESULT=$?
+		
+		for i in "Compressing gas[1/3]" "Loading Oxygen[2/3]" "Starting rotors[3/3]"
+		do
+			echo "$i.."
+			sleep 1
+		done
 	;;
 	
 	"verify_ressources_collected")
@@ -125,6 +146,12 @@ case "$cmd" in
 		&& diff "$5" $LAB_BACKEND/ressources/upprixite.anwser \
 		&& diff "$6" $LAB_BACKEND/ressources/xamanite.anwser
 		RESULT=$?
+		
+		for i in "Analysing samples[1/2]" "Evaluating purity[2/2]"
+		do
+			echo "$i.."
+			sleep 1
+		done
 	;;
 
 	"help"|"-h")
