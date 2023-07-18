@@ -221,6 +221,8 @@ Vous devez donc les trouver et les récuperer.
 <br clear="left"/>
 <br/>
 
+> Quittez le vaisseau et allez dans le dossier `planet`.
+
 Utilisez la commande `find` pour les différentes ressources ci-dessous.
 Chaque ressource se trouve avec une méthode de recherche différentes.
 
