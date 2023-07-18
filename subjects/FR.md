@@ -8,11 +8,11 @@
 <br/>
 <br/>
 <div align="center">
-Vous êtes l'ingénieur à la tête du nouveau spaceship en mission pour conquerir une exo-planète. 
+Vous êtes l'ingénieur à la tête du nouveau vaisseau en mission pour conquérir une exo-planète. 
 </div>
 <br clear="right"/>
 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Il est 05h26, vous venez tout juste d'atterir sur l'exo-planete LNX-4EVER. Vous observez avec émerveillement le paysage qui s'étend devant vous. Une étendue de terre rocailleuse et aride, baignée par la lumière pâle de l'aube naissante. Les montagnes se dressent majestueusement à l'horizon, leurs sommets émergeant d'une brume matinale légère. Des touffes d'herbe brune s'agitent doucement dans le vent frais du matin, et de petits animaux étranges courent furtivement entre les rochers. Vous savez que vous avez beaucoup de travail à faire pour préparer la mission à venir, mais pour l'instant, vous vous contentez de contempler ce paysage aussi étrange que magnifique qui s'offre à vous. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Il est 05h26, vous venez tout juste d'atterrir sur l'exo-planete LNX-4EVER. Vous observez avec émerveillement le paysage qui s'étend devant vous. Une étendue de terre rocailleuse et aride, baignée par la lumière pâle de l'aube naissante. Les montagnes se dressent majestueusement à l'horizon, leurs sommets émergeant d'une brume matinale légère. Des touffes d'herbe brune s'agitent doucement dans le vent frais du matin, et de petits animaux étranges courent furtivement entre les rochers. Vous savez que vous avez beaucoup de travail à faire pour préparer la mission à venir, mais pour l'instant, vous vous contentez de contempler ce paysage aussi étrange que magnifique qui s'offre à vous. 
 
 # 06h12 - Vérifications et contrôls
 
@@ -25,7 +25,7 @@ Vous êtes l'ingénieur à la tête du nouveau spaceship en mission pour conquer
 <br/>
 <div align="center">
 Il est temps de reprendre vos esprits et de commencer le travail ! Pendant que l'équipage s'équipe pour l'exploration, vous vérifiez que l'atterissage s'est correctement déroulé.
-Vous allez devoir créer plusieurs fichiers de verification à envoyer au centre de control.
+Vous allez devoir créer plusieurs rapports à envoyer au centre de contrôle.
 </div>
 
 <br clear="left"/>
@@ -38,9 +38,9 @@ Les prérequis sont les suivants :
 
 > Créez ce rapport d'événements.
 
-_Note : utilisez les enchainements de commandes avec le pipe bash et les redirecteurs de flux._
+_Note : enchaînez les commandes avec le pipe bash et les redirecteurs de flux._
 
-Il est aussi important d'avoir un compte des évenements afin de produire des statistiques d'amélioration.
+Il est aussi important de tenir un compte des évenements afin de produire des statistiques d'amélioration.
 Le fichier doit être sous la forme suivante :
 
 ```
@@ -89,15 +89,15 @@ Note : Cette modification nécessite un redémarrage de la machine.
 
 ## Configuration réseau
 
-Afin d'établir le contact avec la station terrestre, vous établissez une configuration IP statique.
+Afin d'établir le contact avec la station terrestre, vous mettez en place une configuration IP statique.
 
 La configuration DHCP par défaut se trouve dans _/etc/network/interfaces_.
 
 > Renseignez-vous et configurez votre machine en IPv4 statique.
 
-Une fois la connexion établie, vous pouvez envoyer vos rapports générés précédements. Verifiez la connexion avec l'utilitaire `lab`.
+Une fois la connexion établie, vous pouvez envoyer vos rapports générés précédements. Vérifiez la connexion avec l'utilitaire `lab`.
 
-_Note : Utilisez l'argument -h ou help pour afficher la syntaxe du script._
+_Note : Utilisez l'argument -h ou help pour afficher la syntaxe du de l'utilitaire._
 
 # 07h49 - Il y a du monde par ici
 
@@ -111,7 +111,7 @@ Vous comprenez enfin lorsque à l'horizon, d'impressionantes silouhaites se dres
 
 Heureusement pour vous, vôtre préparation en amont vont vous permettre de venir à bout de ce problème. Après plusieurs secondes de doute, ça y'est, vous les identifiez. Ce sont ce qu'on appel : "des proccessus zombies" !
 
-Une forme de vie envahisante et mauvaise pour vos systèmes. Bien que ce sont des processus avant tout, il sont nocives et réservent des ressources qu'ils n'exploitent plus.
+Une forme de vie envahisante et mauvaise pour vos systèmes. Bien que ce sont des processus avant tout, il sont nocifs et réservent des ressources qu'ils n'exploitent plus.
 </div>
 
 <br clear="left"/>
@@ -128,7 +128,7 @@ _Note : Commencez par un repérage. (ps)_
     
 ```" Qui connaît son ennemi comme il se connaît, en cent combats ne sera point défait. "```
 
-Une fois la bataille mener, vérifiez qu'il ne reste plus d'enemis.
+Une fois la bataille menée, vérifiez qu'il ne reste plus d'enemis.
 
 > Lancez le drone pour vérifier les horizons avec l'utilitaire `lab`.
 
@@ -150,8 +150,8 @@ Vos réserves d'oxygène vous permettent de tenir 72h, il est donc temps de mett
 
 ⚠️ Les privilèges "root" sont nécessaires pour cette section.
 
-Le système à du être séparé en deux parties (moteur et filtre) pour le trajet dû aux mélanges chimiques opposés.
-Le filtre se trouve à bord du vaisseau, cepandant le moteur à été stocké dans un conteneur sous la forme d'une image disque.
+Le système à du être séparé en deux parties (moteur et filtre) pour le trajet, dû aux mélanges chimiques opposés.
+Le filtre se trouve à bord du vaisseau, cepandant le moteur a été stocké dans un conteneur sous la forme d'une image disque.
 
 ## Ouverture du conteneur
 
@@ -171,14 +171,16 @@ _Note : Vous allez devoir créer un dossier._
 
 ## Assemblage du système
 
-L'emplacement du système à déja été préparer, c'est l'image vide nommée `oxygen_platform.img`.
+L'emplacement du système a déjà été préparé, c'est l'image vide nommée `oxygen_platform.img`.
 
 > Vérifiez le type du fichier.
 
 Il est temps de partitionner ce disque.
-L'objectif est le suivant : Créer deux partitions formatés en "ext4", de 15Mb et 10Mb environ. Ensuite, nous pourrons placer nos deux composants réspectivement dans chaqu'une des partitions.
+L'objectif est le suivant : Créer deux partitions formatés en "ext4", de 15Mb et 10Mb environ. Ensuite, nous pourrons placer nos deux composants respectivement dans chaqu'une des partitions.
 
 > Utilisez l'utilitaire `fdisk` sur l'image, et créez deux partitions primaires comme expliqué ci-dessus.
+
+_Note : La taille de ces partions peuvent être approximatifs._
 
 > Chargez l'image virtuellement via la commande `sudo losetup --partscan --find --show oxygen_platform.img`.
 
@@ -186,9 +188,7 @@ _Note : Vous pouvez vérifier avec la commande `lsblk`._
 
 > Formatez les deux partitions en "ext4".
 
-_Note : La taille de ces partions peuvent être approximatifs._
-
-> Montez les deux partitions dans deux dossier différents.
+> Montez les deux partitions dans deux dossiers différents.
 
 > Déplacez le moteur dans la partition de 15Mb, et le filtre dans celle de 10Mb.
 
@@ -198,9 +198,9 @@ _Note : La taille de ces partions peuvent être approximatifs._
 
 Une fois que la ressource n'est plus nécessaire, la bonne pratique est de retirer le point de montage.
 
-> Utilisez `umount` sur nos ressources.
+> Utilisez `umount` sur les ressources non utilisées.
 
-> Executez la commande `sudo losetup -D` pour retirer les disques viruels.
+> Executez la commande `sudo losetup -D` pour retirer les "loopbacks" des images disques.
 
 # 11h41 - Récolte des ressources
 
@@ -214,7 +214,7 @@ Une fois que la ressource n'est plus nécessaire, la bonne pratique est de retir
 <div align="center">
 Une des raison de votre excurtion est de récolter des ressources inconnues disponnible sur cette planète.
 
-Dans le dossier "planet", vous trouverez de nombeuses ressources assez banales, mais parmis elles se cache des matières exotiques encore jamais récoltés.
+Dans le dossier "planet", vous trouverez de nombeuses ressources assez banales, mais parmis elles se cachent des matières exotiques encore jamais récoltés.
 Vous devez donc les trouver et les récuperer.
 </div>
 
@@ -224,7 +224,7 @@ Vous devez donc les trouver et les récuperer.
 > Quittez le vaisseau et allez dans le dossier `planet`.
 
 Utilisez la commande `find` pour les différentes ressources ci-dessous.
-Chaque ressource se trouve avec une méthode de recherche différentes.
+Chaque ressource se trouve avec une méthode de recherche différente.
 
 Liste des matières exotiques à prélever :
 
@@ -232,9 +232,9 @@ Liste des matières exotiques à prélever :
 - **Irinite** : le fichier fait plus de 40 Mo.
 - **Nexarium** : il existe un lien symbolique sur le fichier.
 - **Upprixite** : le nom du fichier contient la chaîne de charactère suivante : "shFY". 
-- **Xamanite** : le nom du fichier contient les charactères u,j,d dans l'ordre respectif. Il est à noter que ce minerais ce trouve uniquement après 5 de profondeurs.
+- **Xamanite** : le nom du fichier contient les charactères u,j,d dans l'ordre respectif. Il est à noter que ce minerais se trouve uniquement après 5 de profondeur.
 
-> Récuperez les échantillons, et déplacez les dans la salle d'analyse. Vérifiez les via l'utilitaire `lab`.
+> Récuperez les échantillons et vérifiez les via l'utilitaire `lab`.
 
 # 14h26 - Services
 
@@ -257,7 +257,7 @@ Afin de pouvoir accèder à votre machine à travers le réseau, vous allez ouvr
 
 Les services sont appelés des "démons" sur Linux. De ce fait, la plus part des noms de services finissent par un 'd'.
 
-> Demarrez et activez le service "sshd".
+> Démarrez et activez le service "sshd".
 
 Il est également possible de s'informer sur l'état et les dernières logs d'un service.
 
@@ -265,9 +265,9 @@ Il est également possible de s'informer sur l'état et les dernières logs d'un
 
 Lorsque vous modifiez la configuration d'un service, il faut généralement le rédémarrer.
 
-_Note : C'est par exemple ce que vous avez fait lorsque vous avez définit votre ip en statique._
+_Note : C'est par exemple ce que vous avez fait lorsque vous avez défini votre ip en statique._
 
-> Modifiez le port du service, et redemarrez le pour constater le changement.
+> Modifiez le port du service, et redémarrez le pour constater le changement.
 
 Il ne reste plus qu'à tester !
 
@@ -275,7 +275,7 @@ Il ne reste plus qu'à tester !
 
 _Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez._
 
-# 16h03 - Interferences
+# 16h03 - Interférences
 
 <img align="left" alt="Antenna" src="/assets/interferences.png" width="280px"/>
 <img align="left" alt="Spacer" src="/assets/spacer.png" width="15px" height="280px"/>
@@ -285,7 +285,7 @@ _Note : Vous pouvez remettre le port par défaut (22) si vous le souhaitez._
 <br/>
 <br/>
 <div align="center">
-La station spatiale vous informe qu'ils vous ont connecté à internet.
+La station spatiale vous informe que vous êtes à présent connecté à internet.
 </div>
 
 <br clear="left"/>
@@ -295,9 +295,9 @@ Vérifiez le bon fonctionnement du réseau.
 
 > Commencez par ping "google.com".
 
-> Tracez le chemin par lequel passe les requêtes.
+> Tracez le chemin par lequel les requêtes passent.
 
-> Quel est le serveur DNS en charge de vos résolutions ?
+> Quel est le serveur de nom (DNS) en charge de vos résolutions ?
 
 _Note : Renseignez vous sur la commande `dig`._
 
@@ -320,11 +320,11 @@ Il est temps d'optimiser votre temps. Vous avez pour mission de régulièrement 
 
 Le script `get_sensors_data.sh` permet de vous afficher ces données traités.
 
-Le premier objectif est d'afficher ces données à l'ouverture d'un terminal.
+L'objectif est d'afficher ces données à l'ouverture d'un terminal.
 
-> Automatisez son execution via le fichier `.bashrc`.
+> Automatisez son exécution via le fichier `.bashrc`.
 
-_Note : Le fichier `.bashrc` s'execute à chaque ouverture de terminal._
+_Note : Le fichier `.bashrc` s'éxecute à chaque ouverture de terminal._
 
 ---
 
