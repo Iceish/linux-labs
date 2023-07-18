@@ -131,8 +131,8 @@ case "$cmd" in
 	"verify_oxygen_generator")
 		verify_requirements 3
 		echo "Oxygen engine witch [ON]."
-		diff "$2" "$LAB_BACKEND/oxygen/oxygen_engine.anwser" \
-		&& diff "$3" "$LAB_BACKEND/oxygen/oxygen_filter.anwser" \
+		diff "$2" "$LAB_BACKEND/oxygen/oxygen_engine.anwser" &>/dev/null \
+		&& diff "$3" "$LAB_BACKEND/oxygen/oxygen_filter.anwser" &>/dev/null \
 		&& lsblk | grep -q 'loop'
 		RESULT=$?
 		
