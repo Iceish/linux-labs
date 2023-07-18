@@ -87,7 +87,7 @@ case "$cmd" in
 		RESULT=$?
 	;;
 
-	"verify_attack")
+	"start_attack")
 		verify_requirements 1
 		gcc -s "$LAB_BACKEND/attack/cz.c" -o "$LAB_BACKEND/attack/cz"
 		chmod +x "$LAB_BACKEND/attack/cz"
@@ -97,7 +97,7 @@ case "$cmd" in
 		exit 0
 	;;
 
-	"verify_drones")
+	"verify_attack")
 		verify_requirements 1
 		echo "Drones are scanning surroundings."
 		for i in "Valley[1/3]" "Mountains[2/3]" "Fields[3/3]"
