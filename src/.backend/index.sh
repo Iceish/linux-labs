@@ -73,7 +73,7 @@ case "$cmd" in
 	"verify_hostname")
 		verify_requirements 1
 		diff "/etc/hostname" "$LAB_BACKEND/connection/hostname.anwser" &> /dev/null \
-		&& echo "$(cat /etc/hosts | grep 127.0.1.1 | tr -s ' ' | cut -d ' ' -f 2)" &> $LAB_BACKEND/hosts.tmp \
+		&& echo "$(cat /etc/hosts | grep 127.0.1.1 | tr -s ' ' | cut -d ' ' -f 2)" &> "$LAB_BACKEND/connection/hosts.tmp" \
 		&& diff "$LAB_BACKEND/connection/hosts.tmp" "$LAB_BACKEND/connection/hostname.anwser" &> /dev/null
 		RESULT=$?
 		
@@ -89,10 +89,10 @@ case "$cmd" in
 
 	"verify_attack")
 		verify_requirements 1
-		gcc -s $LAB_BACKEND/attack/cz.c -o $LAB_BACKEND/attack/cz
-		chmod +x $LAB_BACKEND/attack/cz
-		$LAB_BACKEND/attack/cz 25 & &> /dev/null
-		rm -f $LAB_BACKEND/attack/cz &> /dev/null
+		gcc -s "$LAB_BACKEND/attack/cz.c" -o "$LAB_BACKEND/attack/cz"
+		chmod +x "$LAB_BACKEND/attack/cz"
+		"$LAB_BACKEND/attack/cz" 25 & &> /dev/null
+		rm -f "$LAB_BACKEND/attack/cz" &> /dev/null
 		echo "You see a horde of zombies attacking you. Defend yourself !"
 		exit 0
 	;;
