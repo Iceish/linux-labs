@@ -175,8 +175,8 @@ case "$cmd" in
 	;;
 
 	*)
-		echo "'$cmd' option does not exists."
-		echo "Type 'lab help' to get further informations."
+		echo -e "${RED}'$cmd' option does not exists.${RESET}"
+		echo -e "${DIM}Type 'lab help' to get further informations.${RESET}"
 		exit 1
 		;;
 esac
