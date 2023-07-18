@@ -4,6 +4,7 @@
 
 ### 🌀 How to start
 
+You have to source the setup each time you restart the terminal.
 ```
 git clone -b lab2-intermediate https://github.com/EnzoGzz/linux-labs.git
 cd linux-labs/src/
