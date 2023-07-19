@@ -26,7 +26,9 @@ Tout au long de ce lab, vous utiliserez un utilitaire accessible via la commande
 Faîtes `lab help` pour afficher le menu d'aide.
 
 ⚠️ Si la commande `lab` n'existe pas, sourcez le ficher `setup.sh`.
-```source ./setup.sh```
+```bash
+source ./setup.sh
+```
 Note : _Action à faire à chaque nouveau termianal._
 
 ## Dortoirs  
