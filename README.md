@@ -34,6 +34,28 @@ The content can be found under the _src_ folder.
  - DO NOT use root account, except for changing owner (*chown*) when needed.
  - DO NOT share answers. Publish a walkthrough is allowed tho.
 
+### 🔎 Skills you will practice
+
+ - Navigation & Interacting :
+     - `cd`
+     - `mkdir`
+     - `mv`
+     - `cp`
+     - `ls`
+     - `nano`
+     - `tree`
+     - `grep`
+     - `man`
+ - Compressions :
+     - `zip`, `unzip`
+     - `tar`
+ - Package management:
+     - `apt install`
+ - Basic permissions & ownership:
+     - `chmod`
+     - `chown`
+     - `sudo`
+
 ---
 
 [> Go to the next lab.](https://github.com/EnzoGzz/linux-labs/tree/lab2-intermediate)
