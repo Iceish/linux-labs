@@ -19,7 +19,7 @@ Cependant, vous venez de remarquer **1h avant le décollage** qu'un membre de l'
   
 ## Utilitaire 
   
-Suivez les instructions pour initialiser le projet sur la [page de présentation](../README.md) de ce lab.
+Suivez les instructions pour initialiser le projet sur la [page de présentation](../README.md).
 
 Tout au long de ce lab, vous utiliserez un utilitaire accessible via la commande `lab` afin d'effectuer les différentes vérifications.
 
