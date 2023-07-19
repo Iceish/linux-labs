@@ -21,15 +21,15 @@ Cependant, vous venez de remarquer **1h avant le décollage** qu'un membre de l'
   
 Suivez les instructions pour initialiser le projet sur la [page de présentation](../README.md) de ce lab.
 
-Tout au long de ce lab, vous utiliserez un utilitaire accessible via la commande `lab`. Il permet d'effectuer les différentes vérifications, et vous guider.
+Tout au long de ce lab, vous utiliserez un utilitaire accessible via la commande `lab` afin d'effectuer les différentes vérifications.
 
 Faîtes `lab help` pour afficher le menu d'aide.
 
-⚠️ Si la commande `lab` n'existe pas, sourcez le ficher `setup.sh`.
+⚠️ Si la commande `lab` n'existe pas, sourcez le ficher `setup.sh` disponnible à la racine du dossier `src`.
 ```bash
 source ./setup.sh
 ```
-Note : _Action à faire à chaque nouveau termianal._
+_Note : Action à faire à chaque nouveau terminal._
 
 ## Dortoirs  
   
