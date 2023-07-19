@@ -146,7 +146,7 @@ Vous avez deux missions :
   
 L'attaquant a **crypto-locké** le centre de contrôle, le seul moyen de le **déchiffrer** est de trouver la **clé de déchiffrement** et l'activer. 
 
-> Lancez le script `decrypt_key.sh` en usurpant l'identité de "h4cker-lab".
+> Lancez le script `get_key.sh` en usurpant l'identité de "h4cker-lab".
 _Note : `man sudo`_
 
 Maintenant que vous avez la clé, dépêchez vous d'**activer le déchiffrement** avec l'utilitaire `lab` !
