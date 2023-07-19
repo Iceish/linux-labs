@@ -36,7 +36,7 @@ The content can be found under the _src_ folder.
 
 ### 🔎 Skills you will practice
 
- - Navigation & Interacting :
+ - Navigation & Interacting:
      - `cd`
      - `mkdir`
      - `mv`
@@ -46,7 +46,7 @@ The content can be found under the _src_ folder.
      - `tree`
      - `grep`
      - `man`
- - Compressions :
+ - Compressions:
      - `zip`, `unzip`
      - `tar`
  - Package management:
