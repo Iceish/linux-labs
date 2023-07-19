@@ -14,6 +14,20 @@ Vous êtes l'ingénieur à la tête du nouveau vaisseau en mission pour conquér
 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Il est 05h26, vous venez tout juste d'atterrir sur l'exo-planete LNX-4EVER. Vous observez avec émerveillement le paysage qui s'étend devant vous. Une étendue de terre rocailleuse et aride, baignée par la lumière pâle de l'aube naissante. Les montagnes se dressent majestueusement à l'horizon, leurs sommets émergeant d'une brume matinale légère. Des touffes d'herbe brune s'agitent doucement dans le vent frais du matin, et de petits animaux étranges courent furtivement entre les rochers. Vous savez que vous avez beaucoup de travail à faire pour préparer la mission à venir, mais pour l'instant, vous vous contentez de contempler ce paysage aussi étrange que magnifique qui s'offre à vous. 
 
+## Utilitaire 
+  
+Suivez les instructions pour initialiser le projet sur la [page de présentation](../README.md).
+
+Tout au long de ce lab, vous utiliserez un utilitaire accessible via la commande `lab` afin d'effectuer les différentes vérifications.
+
+Faîtes `lab help` pour afficher le menu d'aide.
+
+⚠️ Si la commande `lab` n'existe pas, sourcez le ficher `setup.sh` disponible à la racine du dossier `src`.
+```bash
+source ./setup.sh
+```
+_Note : Action à faire à chaque nouveau terminal._
+
 # 06h12 - Vérifications et contrôls
 
 <img align="left" alt="Spaceship control" src="/assets/control.png" width="280px"/>
