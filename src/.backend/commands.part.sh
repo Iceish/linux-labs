@@ -82,6 +82,33 @@ case "$CMD" in
 		fi
 	;;
 
+	"start_console")
+		verify_requirements 1
+		
+		sudo useradd h4cker-lab
+		RESULT=0
+
+		display_fake_event "Console loading" "Indexing files"
+	;;
+
+	"decrypt_spaceship")
+		verify_requirements 2
+
+		display_fake_event "Reading key" "Trying to decrypt data"
+		
+		if [ $(echo "$2" | base64) == "c3VwZXJfc2VjcmV0X2tleTEyMwo=" ];then
+			sudo cp "${LAB_BACKEND}/control-center/control.log" .
+			sudo chown h4cker-lab:h4cker-lab "./control.log"
+			sudo chmod 500 "./control.log"
+			echo -e "${DIM}Correct key. Now you have access to control logs.${RESET}"
+			RESULT=0
+		else
+			echo -e	"${DIM}Wrong key.${RESET}"
+			RESULT=1
+		fi
+		
+	;;
+
 	"help"|"-h")
         	verify_requirements 1
                 echo -e "${DIM}Lab command helper${RESET}"
@@ -97,6 +124,8 @@ case "$CMD" in
 		echo -e "•${CYAN} verify_dormitories ${RESET}<${MAGENTA}dormitories folder path${RESET}> : ${DIM}Verify that dormitories configuration is correct.${RESET}"
 		echo -e "•${CYAN} verify_reactors ${RESET}<${MAGENTA}engine.conf file${RESET}> : ${DIM}Verify the engine configuration file.${RESET}"
 		echo -e "•${CYAN} verify_storage ${RESET}<${MAGENTA}vegetables zip file${RESET}> <${MAGENTA}stuff targz file${RESET}>: ${DIM}Verify that storage room is tidy.${RESET}"
+		echo -e "•${CYAN} start_console ${RESET}: ${DIM}Start the control center console.${RESET}"
+		echo -e "•${CYAN} decrypt_spaceship ${RESET}<${MAGENTA}key${RESET}> : ${DIM}Start the control center console.${RESET}"
                 exit 0
         ;;
 
