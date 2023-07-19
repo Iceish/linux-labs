@@ -17,19 +17,18 @@ Vous êtes l'ingénieur à la tête du nouveau spaceship en mission pour conquer
 
 Cependant, vous venez de remarquer **1h avant le décollage** qu'un membre de l'équipage à **compromis la configuration du vaisseau**, ce qui le rends **non-opérationnel**. Or il est impossible de décaler l'heure de décollage prévu initialement. Vous avez donc 1h pétante pour faire des miracles, **trouvez le coupable**, et **réparez le vaisseau**. Bon courage soldat ! 
   
-## Accès au système  
+## Utilitaire 
   
-Avec votre machine linux, **dirigez vous** dans le **dossier _src_** du projet cloné, puis **entrez** dans le dossier **_spaceship_**.  
-  
-**Listez** tous les **dossiers** du spaceship pour **verifier** que vous les dossiers suivants sont présents : 
+Suivez les instructions pour initialiser le projet sur la [page de présentation](../README.md) de ce lab.
 
- - Dormitories
- - Reactors
- - Storage
- - Control-center
+Tout au long de ce lab, vous utiliserez un utilitaire accessible via la commande `lab`. Il permet d'effectuer les différentes vérifications, et vous guider.
 
-  > Vérifiez l'intégrité du clone.
-  
+Faîtes `lab help` pour afficher le menu d'aide.
+
+⚠️ Si la commande `lab` n'existe pas, sourcez le ficher `setup.sh`.
+```source ./setup.sh```
+Note : _Action à faire à chaque nouveau termianal._
+
 ## Dortoirs  
   
 <img align="left" alt="Dormitory" src="/assets/dormitory.png" width="280px"/>
