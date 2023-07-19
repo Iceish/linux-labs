@@ -57,7 +57,7 @@ Vous êtes 'padawan' identifié comme '#K1B63' avec le role 'global supervisor'.
 
 > Recréez votre configuration dans le dortoir correspondant.
 
-Indice : Copiez celui d'un autre membre, renomez le *padawan.conf*, puis modifiez les informations du fichier à votre image.
+_Note : Copiez celui d'un autre membre, renomez le *padawan.conf*, puis modifiez les informations du fichier à votre image._
 
 Tout à l'aire en ordre, vérifiez la disposition avec l'utilitaire `lab`. 
 _Note : Utilisez l'argument -h ou help pour afficher la syntaxe du de l'utilitaire._
@@ -115,7 +115,7 @@ Votre dossier **_storage_** devrait se **présenter comme le schéma ci-dessous*
   
 > Remettez de l'odre dans les palettes, mais rappelez-vous que le temps presse.  
 
-Indice : Au lieu de déplacer chaque fichier un par un, **utilisez l'opérateur '\*'** pour tout faire en un seul coup.  
+_Note : Au lieu de déplacer chaque fichier un par un, **utilisez l'opérateur '\*'** pour tout faire en un seul coup._  
   
 > Une fois le tri effectué, refermez les palettes en compressant les dossiers comme dans leur état initial tel que le schéma ci-dessous.  
 ```  
@@ -163,7 +163,7 @@ Rechercher toutes les lignes incluant ``control-center`` semble pertinent.
 
 > Identifiez l'attaquant, et ejectez le !
   
-*Rappel : Il n'y a qu'**un seul** attaquant.*  
+_Note : Il n'y a qu'**un seul** attaquant._
   
 ---  
   
