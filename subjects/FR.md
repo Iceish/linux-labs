@@ -25,7 +25,7 @@ Tout au long de ce lab, vous utiliserez un utilitaire accessible via la commande
 
 Faîtes `lab help` pour afficher le menu d'aide.
 
-⚠️ Si la commande `lab` n'existe pas, sourcez le ficher `setup.sh` disponnible à la racine du dossier `src`.
+⚠️ Si la commande `lab` n'existe pas, sourcez le ficher `setup.sh` disponible à la racine du dossier `src`.
 ```bash
 source ./setup.sh
 ```
@@ -59,11 +59,12 @@ Vous êtes 'padawan' identifié comme '#K1B63' avec le role 'global supervisor'.
 
 Indice : Copiez celui d'un autre membre, renomez le *padawan.conf*, puis modifiez les informations du fichier à votre image.
 
-Tout à l'aire en ordre, executez le **script de vérification** _check-script.sh_ à la racine du dossier *dormitories*.  
-  
+Tout à l'aire en ordre, vérifiez la disposition avec l'utilitaire `lab`. 
+_Note : Utilisez l'argument -h ou help pour afficher la syntaxe du de l'utilitaire._
+
 > Vérifiez la configuration des dortoires.
   
-Vous pouvez passez à la suite si **tous les indicateurs** sont **OK**.  
+Vous pouvez passez à la suite si **les indicateurs** sont **OK**.  
   
 ## Réacteurs  
   
@@ -84,11 +85,9 @@ En analysant les configurations des réacteurs, vous vous rendez compte que l'**
  
  - Le champ **_engine-with-starter_** est difficile à trouver. En effet de **nombreux fichiers** et sous **dossiers** se trouvent dans **_engines_**. Or rappelez vous que le vaisseau **décolle bientôt**! Pour aller plus vite vous décidez d'**installer** un **packet** pour tout lister d'**un seul coup**. **Installez** la commande **_tree_** avec apt, puis **utilisez** là sur le dossier **_engines_**.  Quand vous avez **ciblé** les **starters**, **remontrez** jusqu'**à la source** pour obtenir le **numéro du moteur** _(soit 1,2 ou 3)_. 
  
-Lorsque vous pensez avoir la **bonne configuration**, executez le script de vérification à la racine du dossier *reactors*.  
+Lorsque vous pensez avoir la **bonne configuration**, vérifiez avec l'utilitaire `lab`.  
 
 > Vérifiez la configuration des réacteurs.
-  
-Vous pouvez passez à la suite si **tous les indicateurs** sont **OK**.  
   
 ## Stockage  
 
@@ -128,9 +127,7 @@ Indice : Au lieu de déplacer chaque fichier un par un, **utilisez l'opérateur 
 
 Maintenant, le protocole d'hygiène et de sécurité devrait passer.
  
-> Lancez le contrôle des palettes.
-  
-Vous pouvez passez à la suite si **tous les indicateurs** sont **OK**.  
+> Lancez le contrôle des palettes avec l'utilitaire `lab`.
   
 ## Centre de contrôle  
 
@@ -139,18 +136,23 @@ Vous pouvez passez à la suite si **tous les indicateurs** sont **OK**.
 
 **La fin approche !** Vous vous dépêchez d'aller dans la salle de contrôle pour essayer de **retracer l'attaquant** avant le décollage.  
   
-> Lancez le script *setup.sh* en tant que root pour initialiser la salle.  
+> Lancez la commande `lab start_console` pour initialiser le centre de contrôle.  
   
 Cette salle est **sécurisée**, vous allez être confronté à **plusieurs problèmes de permissions**, à vous de les régler.  
   
 Vous avez deux missions :  
   
-### Relancer le centre de contrôle.  
+### Reprise du centre de contrôle.  
   
-L'attaquant a **crypto-locké** le centre de contrôle, le seul moyen de le **déchiffrer** est de **lancer** le script **_unlock.sh_** en **usurpant** son **pseudo** (_h4cker-lab_). 
+L'attaquant a **crypto-locké** le centre de contrôle, le seul moyen de le **déchiffrer** est de trouver la **clé de déchiffrement** et l'activer. 
 
-> Trouvez la commande pour lancer une commande avec une autre identitée.
-  
+> Lancez le script `decrypt_key.sh` en usurpant l'identité de "h4cker-lab".
+_Note : `man sudo`_
+
+Maintenant que vous avez la clé, dépêchez vous d'**activer le déchiffrement** avec l'utilitaire `lab` !
+
+> Déchiffez le spaceship, et récupérez les logs !
+
 ### Identifier l'attaquant.  
   
 Avec tous les **indices récoltés** depuis le début de cette aventure, vous devriez être en **capacité** de **l'identifier** grâce au fichier **_control.log_**. L'attaquant n'a **pas réussi** à le **détruire entièrement**, il reste donc quelques **informations intéressantes** à **analyser**.  
