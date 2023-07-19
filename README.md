@@ -34,30 +34,30 @@ The content can be found under the _src_ folder.
 
 ### 🔎 Skills you will practice
 
- - Redirections de flux simples.
- - Recherches :
+ - Redirect operators.
+ - Searching:
      - `find`
      - `grep`
- - Traitement :
+ - Processing:
      - `cut`
      - `sort`
      - `uniq`
- - Gestion du system :
+ - System management:
      - `.bashrc`
- - Changer le hostname.
- - Gestion du réseau :
-     - Changer d'IPv4. (statique)
+ - Update hostname.
+ - Network management:
+     - Edit IPv4. (static)
      - `ping`
      - `traceroute`
      - `dig`
- - Gestion des processus :
+ - Process management:
      - `ps`
      - `kill`
- - Gestion des disques :
+ - Disk management:
      - `fdisk`
      - `mount`, `umount`
      - `lsblk`
- - Gestion des services :
+ - Service management:
      - `systemctl`
 
 ---
