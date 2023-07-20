@@ -14,6 +14,14 @@ On those branches, the corresponding _README_ file will **point out** **prerequi
  - <img align="left" alt="Spaceship Landed" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/lab2-intermediate/assets/spaceship_landed.png" width="25x"/>&nbsp;[Lab 2 - Intermediate (beta)](https://github.com/EnzoGzz/linux-labs/tree/lab2-intermediate)
  - _Comming soon.._
 
+### 🗣️ Available languages
+
+The following list show what languages are available for lab subjects:
+
+ - 🇫🇷 French. (Native)
+ - 🇬🇧 English. (AI Traduced)
+ - _Any suggestion ?_
+
 ### ⛓ Contributing
 
 I believe that **learning should be engaging** and **accessible**, and that's why I created this project. I invite **everyone** to **contribute** to this project by submitting **pull requests** or opening **issues**. 
