@@ -1,6 +1,7 @@
 [< Go back to the main menu.](https://github.com/EnzoGzz/linux-labs/tree/master)
 #  <img align="left" alt="Landed Spaceship" src="/assets/spaceship_landed.png" width="50x"/>&nbsp; Labs 2 - Intermediate
 
+Let's take it further into the world of Linux with the Intermediate Module of Linux Labs! In this stage, we'll dive deeper, exploring advanced data processing, efficient searching, system customization, network management, process control, disk handling, and service management.
 
 ### 🌀 How to start
 
