@@ -105,7 +105,6 @@ Votre dossier `storage` devrait se présenter comme le schéma ci-dessous.
 ```  
 .  
 ├── ammunitions  
-├── check-script.sh  
 ├── cucumbers  
 ├── knives  
 ├── potatoes  
@@ -120,7 +119,6 @@ _Note : Au lieu de déplacer chaque fichier un par un, utilisez l'opérateur '\*
 > Une fois le tri effectué, refermez les palettes en compressant les dossiers comme dans leur état initial tel que le schéma ci-dessous.  
 ```  
 .  
-├── check-script.sh  
 ├── stuff.tar.gz  
 └── vegetables.zip
 ```  

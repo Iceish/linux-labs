@@ -104,7 +104,6 @@ Your `storage` folder should look like the following diagram.
 ```  
 .  
 ├── ammunitions  
-├── check-script.sh  
 ├── cucumbers  
 ├── knives  
 ├── potatoes  
@@ -119,7 +118,6 @@ _Note: Instead of moving each file one by one, use the '\*' operator to do it al
 
 ```  
 .  
-├── check-script.sh  
 ├── stuff.tar.gz  
 └── vegetables.zip
 ```  
