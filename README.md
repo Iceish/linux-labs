@@ -16,7 +16,7 @@ On those branches, the corresponding _README_ file will **point out** **prerequi
 
 ### 🗣️ Available languages
 
-The following list show what languages are available for lab subjects:
+The following list show available languages for lab subjects:
 
  - 🇫🇷 French. (Native)
  - 🇬🇧 English. (AI Traduced)
