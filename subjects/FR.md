@@ -315,6 +315,13 @@ Vérifiez le bon fonctionnement du réseau.
 
 _Note : Renseignez vous sur la commande `dig`._
 
+Par question de sécurité, vous devez utiliser les serveurs DNS de CloudFlare.
+
+> Modifiez le "nameserver" (DNS) avec la valeur `1.1.1.1`.
+
+_Note : Intéressez-vous sur le fichier `/etc/resolv.conf`._
+
+> Vérifiez de nouveau avec la commande `dig`.
 
 # 18h57 - Automatisation
 

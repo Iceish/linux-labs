@@ -321,6 +321,14 @@ Verify the proper functioning of the network.
 
 _Note: Research the `dig` command._
 
+For security resons, you have to use CloudFlare DNS.
+
+> Edit your DNS "nameserver" with value `1.1.1.1`.
+
+_Note : Take a look at `/etc/resolv.conf` file._
+
+> Verify it worked with `dig` command.
+
 # 18:57 - Automation
 
 <img align="right" alt="Robot" src="/assets/automation.png" width="280px"/>
