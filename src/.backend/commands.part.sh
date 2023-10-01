@@ -1,5 +1,5 @@
 # This file should not be executed directly. Use `lab` command instead.
-# Enzo Gz.
+# Iceish.
 
 if [ -z "${CMD}" ];then
 	echo "ERROR: you should not execute this script explicitly. Verify that you initialized the lab with setup.sh, and use \`lab\` command instead. Read the README.md for further informations."
