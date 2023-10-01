@@ -10,8 +10,8 @@ On those branches, the corresponding _README_ file will **point out** **prerequi
 
 ### 📒 Summary
 
- - <img align="left" alt="Spaceship" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/lab1-fundamentals/assets/spaceship.png" width="25x"/>&nbsp;[Lab 1 - Fundamentals](https://github.com/EnzoGzz/linux-labs/tree/lab1-fundamentals)
- - <img align="left" alt="Spaceship Landed" src="https://raw.githubusercontent.com/EnzoGzz/linux-labs/lab2-intermediate/assets/spaceship_landed.png" width="25x"/>&nbsp;[Lab 2 - Intermediate (beta)](https://github.com/EnzoGzz/linux-labs/tree/lab2-intermediate)
+ - <img align="left" alt="Spaceship" src="https://raw.githubusercontent.com/Iceish/linux-labs/lab1-fundamentals/assets/spaceship.png" width="25x"/>&nbsp;[Lab 1 - Fundamentals](https://github.com/Iceish/linux-labs/tree/lab1-fundamentals)
+ - <img align="left" alt="Spaceship Landed" src="https://raw.githubusercontent.com/Iceish/linux-labs/lab2-intermediate/assets/spaceship_landed.png" width="25x"/>&nbsp;[Lab 2 - Intermediate (beta)](https://github.com/Iceish/linux-labs/tree/lab2-intermediate)
  - _Comming soon.._
 
 ### 🗣️ Available languages
@@ -32,6 +32,6 @@ I believe that **learning should be engaging** and **accessible**, and that's wh
 
 ---
 
-EnzoGzz.
+Iceish.
 
-[> Check out my others projects here.](https://github.com/EnzoGzz/)
+[> Check out my others projects here.](https://github.com/Iceish/)
