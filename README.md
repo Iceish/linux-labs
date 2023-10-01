@@ -1,4 +1,4 @@
-[< Go back to the main menu.](https://github.com/EnzoGzz/linux-labs/tree/master)
+[< Go back to the main menu.](https://github.com/Iceish/linux-labs/tree/master)
 #  <img align="left" alt="Dormitory" src="/assets/spaceship.png" width="50x"/>&nbsp; Labs 1 - Fundamentals
 
 **Welcome** on the first linux labs! This module will go through linux fundamentals.
@@ -12,7 +12,7 @@ These skills are **crucial** for any individual looking to work with Linux syste
 ### 🌀 How to clone
 
 ```
-git clone -b lab1-fundamentals https://github.com/EnzoGzz/linux-labs.git
+git clone -b lab1-fundamentals https://github.com/Iceish/linux-labs.git
 ```
 
 The content can be found under the _src_ folder.
@@ -58,4 +58,4 @@ The content can be found under the _src_ folder.
 
 ---
 
-[> Go to the next lab.](https://github.com/EnzoGzz/linux-labs/tree/lab2-intermediate)
+[> Go to the next lab.](https://github.com/Iceish/linux-labs/tree/lab2-intermediate)
