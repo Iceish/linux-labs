@@ -1,6 +1,6 @@
 #/bin/bash
 
-# Made by @Iceishz on Github.
+# Made by @Iceish on Github.
 
 BOLD="\e[1m"
 RED="\e[31m"
