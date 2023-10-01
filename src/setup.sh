@@ -28,4 +28,4 @@ alias lab=$LAB_BACKEND/index.sh
 echo -e "${GREEN}✅ You successfully initialized this linux lab."
 echo -e "Enjoy !${RESET}"
 echo "${DIM}Keep in mind to source this script if you restarted a new terminal.${RESET}"
-echo "${DIM}- EnzoGz${RESET}"
+echo "${DIM}- Iceish${RESET}"

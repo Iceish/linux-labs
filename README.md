@@ -1,4 +1,4 @@
-[< Go back to the main menu.](https://github.com/EnzoGzz/linux-labs/tree/master)
+[< Go back to the main menu.](https://github.com/Iceish/linux-labs/tree/master)
 #  <img align="left" alt="Landed Spaceship" src="/assets/spaceship_landed.png" width="50x"/>&nbsp; Labs 2 - Intermediate
 
 Let's take it further into the world of Linux with the Intermediate Module of Linux Labs! In this stage, we'll dive deeper, exploring advanced data processing, efficient searching, system customization, network management, process control, disk handling, and service management.
@@ -7,7 +7,7 @@ Let's take it further into the world of Linux with the Intermediate Module of Li
 
 You have to source the setup each time you restart the terminal.
 ```
-git clone -b lab2-intermediate https://github.com/EnzoGzz/linux-labs.git
+git clone -b lab2-intermediate https://github.com/Iceish/linux-labs.git
 cd linux-labs/src/
 source ./setup.sh
 ```
@@ -25,7 +25,7 @@ The content can be found under the _src_ folder.
  - [**Git**](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed on the machine.
  - **Motivation** and willing to learn.
  - Completed following labs:
-     - [lab1-fundamentals](https://github.com/EnzoGzz/linux-labs/tree/lab1-fundamentals)
+     - [lab1-fundamentals](https://github.com/Iceish/linux-labs/tree/lab1-fundamentals)
 
 ### ⭕ Rules
 
@@ -63,4 +63,4 @@ The content can be found under the _src_ folder.
 
 ---
 
-[> Go to the next lab. _(Comming soon)_](https://github.com/EnzoGzz/linux-labs/tree/lab2-intermediate)
+[> Go to the next lab. _(Comming soon)_](https://github.com/Iceish/linux-labs/tree/lab2-intermediate)
